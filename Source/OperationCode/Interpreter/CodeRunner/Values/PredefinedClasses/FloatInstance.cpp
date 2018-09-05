@@ -1,0 +1,11 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "FloatInstance.h"
+#include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
+
+UFloatInstance* UFloatInstance::Duplicate_Implementation()
+{
+	return URTS_InstanceCreator::CreateFloatValue(CodeRunner, Value);
+}
+
+

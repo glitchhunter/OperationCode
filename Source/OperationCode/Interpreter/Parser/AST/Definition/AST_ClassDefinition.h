@@ -31,7 +31,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	FString Name;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Instanced)
 	TArray<UAST_FunctionDefinition*> FunctionDefinitions;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)

@@ -11,7 +11,7 @@ class UAST_FunctionDefinition;
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class URTS_FunctionDefinition : public URTS_Definition
 {
 	GENERATED_BODY()

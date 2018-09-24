@@ -26,7 +26,7 @@ public:
 	virtual URuntimeState* CreateRuntimeState(UCodeRunner* CodeRunner) override;
 
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	FFunctionData FunctionData;
 
 	UPROPERTY()

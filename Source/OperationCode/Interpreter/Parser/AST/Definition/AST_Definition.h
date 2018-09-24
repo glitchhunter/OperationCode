@@ -14,6 +14,9 @@ class OPERATIONCODE_API UAST_Definition : public UAST_Node
 {
 	GENERATED_BODY()
 	
-	
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString Comment;
 	
 };

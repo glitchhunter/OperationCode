@@ -7,7 +7,7 @@ URuntimeState* UComplexPredefinedFunction::CreateRuntimeState(UCodeRunner* CodeR
 {
 	UComplexFunctionDefinitionRTS* RTS_Complex = NewObject<UComplexFunctionDefinitionRTS>(CodeRunner, RTSClass);
 	RTS_Complex->Init(CodeRunner);
-	//RTS_Complex->SetBasic(this);
+	RTS_Complex->SetComplexFunctionDefinition(this);
 	return RTS_Complex;
 }
 

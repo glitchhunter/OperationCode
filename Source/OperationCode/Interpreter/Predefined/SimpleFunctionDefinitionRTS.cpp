@@ -18,6 +18,11 @@ UAST_Node* USimpleFunctionDefinitionRTS::GetNode() const
 	return SimpleFunction;
 }
 
+void USimpleFunctionDefinitionRTS::SetPredefinedFunctionDefinition(USimplePredefinedFunction* simpleFunction)
+{
+	SimpleFunction = simpleFunction;
+	FunctionDefinition = SimpleFunction;
+}
 
 
 

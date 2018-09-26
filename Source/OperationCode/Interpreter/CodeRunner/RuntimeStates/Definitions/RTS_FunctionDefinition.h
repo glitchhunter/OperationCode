@@ -62,7 +62,7 @@ public:
 
 protected:
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UAST_FunctionDefinition* FunctionDefinition;
 
 	UPROPERTY()

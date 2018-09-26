@@ -21,3 +21,9 @@ void UComplexFunctionDefinitionRTS::Finished_BP(UValue* returnValue)
 	GetCodeRunner()->SetValue(returnValue);
 	Finished();
 }
+
+void UComplexFunctionDefinitionRTS::SetComplexFunctionDefinition(UComplexPredefinedFunction* complexFunctionDefinition)
+{
+	ComplexFunctionDefinition = complexFunctionDefinition;
+	FunctionDefinition = ComplexFunctionDefinition;
+}

@@ -22,7 +22,7 @@ public:
 
 	virtual UAST_Node* GetNode() const;
 
-	void SetComplexFunctionDefinition(UComplexPredefinedFunction* complexFunctionDefinition) { ComplexFunctionDefinition = complexFunctionDefinition; }
+	void SetComplexFunctionDefinition(UComplexPredefinedFunction* complexFunctionDefinition);
 
 	UFUNCTION(BlueprintImplementableEvent, meta = (DsiplayName = "Run step"))
 	void RunStep_BP();
@@ -35,8 +35,8 @@ public:
 
 protected:
 
-	UPROPERTY()
-		UComplexPredefinedFunction* ComplexFunctionDefinition;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UComplexPredefinedFunction* ComplexFunctionDefinition;
 
 	
 };

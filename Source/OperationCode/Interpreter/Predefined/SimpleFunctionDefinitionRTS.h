@@ -22,12 +22,12 @@ public:
 
 	virtual UAST_Node* GetNode() const;
 
-	void SetPredefinedFunctionDefinition(USimplePredefinedFunction* simpleFunction) { SimpleFunction = simpleFunction; }
+	void SetPredefinedFunctionDefinition(USimplePredefinedFunction* simpleFunction);
 
 
 protected:
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	USimplePredefinedFunction* SimpleFunction;
 
 	

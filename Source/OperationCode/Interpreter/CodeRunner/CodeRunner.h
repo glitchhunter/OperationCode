@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Interpreter/InterpreterComponent.h"
 #include "StackFrame.h"
+#include "Runtime/Engine/Public/TimerManager.h"
 #include "CodeRunner.generated.h"
 
 class UAST_Node;

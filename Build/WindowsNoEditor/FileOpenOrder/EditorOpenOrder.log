@@ -1651,659 +1651,660 @@
 "../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 1651
 "../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Intermediate/AssetRegistryCache/311563bb.bin" 1652
 "../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Intermediate/AssetRegistryCache/c90e3f55.bin" 1653
-"../../../Engine/Content/BasicShapes/Cube.uasset" 1654
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 1655
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 1656
-"../../../Engine/Content/BasicShapes/Cone.uasset" 1657
-"../../../Engine/Content/BasicShapes/Plane.uasset" 1658
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 1659
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 1660
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Intermediate/AssetRegistryCache/cfeb52af.bin" 1661
-"../../../Engine/Config/HTML5/HTML5Engine.ini" 1662
-"../../../Engine/Content/EngineMeshes/Cube.uasset" 1663
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 1664
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 1665
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 1666
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 1667
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 1668
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 1669
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 1670
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 1671
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 1672
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 1673
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 1674
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 1675
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 1676
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1677
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 1678
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 1679
-"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 1680
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 1681
-"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 1682
-"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 1683
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 1684
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 1685
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 1686
-"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 1687
-"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 1688
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 1689
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 1690
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 1691
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1692
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 1693
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 1694
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 1695
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 1696
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 1697
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 1698
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 1699
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodeGameMode.uasset" 1700
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodeCharacter.uasset" 1701
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 1702
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 1703
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 1704
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 1705
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 1706
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 1707
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 1708
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/CodeComponent.uasset" 1709
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/BasicComponent.uasset" 1710
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/CodeComponentInstance.uasset" 1711
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/ReferenceData.uasset" 1712
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodePlayerController.uasset" 1713
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ClassStatics.uasset" 1714
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/InspectComponent.uasset" 1715
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/GenericInspectionCodeInfo.uasset" 1716
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/ClassDataNode.uasset" 1717
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/FunctionDataNode.uasset" 1718
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/VariableDataNode.uasset" 1719
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/GenericInspectionWidget.uasset" 1720
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IInteractable.uasset" 1721
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IPickupable.uasset" 1722
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IWeight.uasset" 1723
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/IShootable.uasset" 1724
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 1725
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 1726
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 1727
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 1728
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 1729
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1730
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1731
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1732
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1733
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1734
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 1735
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1736
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1737
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1738
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 1739
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1740
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 1741
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" 1742
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset" 1743
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1744
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1745
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1746
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1747
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 1748
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1749
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1750
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1751
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset" 1752
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset" 1753
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 1754
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/CodeGameInstance.uasset" 1755
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/CodeSaveGame.uasset" 1756
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/DebugClass.uasset" 1757
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/GetCodeAssetList.uasset" 1758
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/GetLevelList.uasset" 1759
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/SetCodeRunnerMaxSteps.uasset" 1760
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_ClearSavedLevels.uasset" 1761
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_OpenLevel_String.uasset" 1762
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_OpenLevel_String_RTS.uasset" 1763
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_SaveLevel_String.uasset" 1764
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/WriteCodeAsset.uasset" 1765
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Basic.uasset" 1766
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/PrintString.uasset" 1767
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Wait/Void_Wait_Float.uasset" 1768
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Wait/Void_Wait_Float_RTS.uasset" 1769
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelClass.uasset" 1770
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelReset/Void_Reset.uasset" 1771
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelReset/Void_Reset_RTS.uasset" 1772
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Console.uasset" 1773
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/ConsoleOptions.uasset" 1774
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ConsoleTextBlock.uasset" 1775
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/OptionHeader.uasset" 1776
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/OptionsButton.uasset" 1777
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ParseError/parseError.uasset" 1778
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ParseError/Pass.uasset" 1779
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/HUD.uasset" 1780
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset" 1781
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/Hack.uasset" 1782
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/Interact.uasset" 1783
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/QuestionMark.uasset" 1784
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/PipBoyUI.uasset" 1785
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/Tab/TabButton.uasset" 1786
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/Tab/TabText.uasset" 1787
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InspectMenu/DefaultInspectText.uasset" 1788
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InteractMenu/InteractText.uasset" 1789
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenu.uasset" 1790
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenuButton.uasset" 1791
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenuText.uasset" 1792
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/BubbleSort.uasset" 1793
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Expressions.uasset" 1794
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Inheritance.uasset" 1795
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Startmap.umap" 1796
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 1797
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 1798
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 1799
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 1800
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1801
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1802
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1803
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1804
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1805
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Flashy/Flashy.uasset" 1806
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Flashy/M_Flashy.uasset" 1807
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" 1808
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" 1809
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Button.uasset" 1810
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IEnableable.uasset" 1811
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Meshes/SM_Button.uasset" 1812
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_Button.uasset" 1813
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_Button_Chrome.uasset" 1814
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_ButtonBase.uasset" 1815
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/Forcefield.uasset" 1816
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/M_Forcefield.uasset" 1817
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 1818
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 1819
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 1820
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/1M_Cube.uasset" 1821
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/CubeMaterial.uasset" 1822
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/LevelEnd/LevelEnd.uasset" 1823
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/LevelEnd/M_LevelEndPortal.uasset" 1824
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" 1825
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" 1826
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Frame_M.uasset" 1827
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Frame_N.uasset" 1828
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform.uasset" 1829
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_PlatformDestination.uasset" 1830
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_Platform.uasset" 1831
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_PlatformMain.uasset" 1832
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1833
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" 1834
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" 1835
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/PressurePlate.uasset" 1836
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Meshes/SM_PressurePlate.uasset" 1837
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Materials/M_Orange_Shiny.uasset" 1838
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Meshes/SM_PressurePlateBase.uasset" 1839
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Materials/M_PressurePlateBase.uasset" 1840
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Spawner/Spawner.uasset" 1841
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PickupCube/PickupCube.uasset" 1842
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PickupCube/M_PickUpCube.uasset" 1843
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" 1844
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" 1845
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/Terminal.uasset" 1846
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/GenericTerminalFunction.uasset" 1847
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/GenericTerminalData.uasset" 1848
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 1849
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/RTS_FunctionLibrary.uasset" 1850
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/TerminalRTS.uasset" 1851
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret.uasset" 1852
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Bullet.uasset" 1853
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 1854
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/MaterialSphere.uasset" 1855
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/PlatformChangeSpeed.uasset" 1856
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Startmap_BuiltData.uasset" 1857
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/4/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__ED1677DFE04AEAD9A6B7D39B23A46B131EA42FDE.udd" 1858
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/2/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_3E649BB34D3D14D86__F02969C2CBDF823F5029E1C6F3C9190AED306380.udd" 1859
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/9/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_3E649BB34D3D14D86BBB58AC73E5BC4__3760D0CDAC62650358822F4629B2A99963902FD4.udd" 1860
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/9/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__60615DB2C5EA369BF6C9A6E6B87C314F2C32CE16.udd" 1861
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/5/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_47ADB5984A631743B__F5F478C49DDFC5E9ADD4E482FB9708B933DA225A.udd" 1862
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/3/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__98B67C097065F1CA32D6E4CB990C3FC4B744F4AF.udd" 1863
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/9/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_259BB4E848BA0168E__A559A0B5F2BC65362C2A5A69A5BB72B80EAEAADF.udd" 1864
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_47ADB5984A631743B542C9BD9178124__F58D2DAE995341CF0DE775C34343A49C00E84D91.udd" 1865
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/2/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_259BB4E848BA0168E29EADAF002ED45__B757F315B0C73BF1959BDFA7EEBF8A89D09306B0.udd" 1866
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__F4BB78244EB607F9AB1717BD632DC7E13975B93D.udd" 1867
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/8/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_31320DC84E5352B7D__4190CE17B779AE7522A9C12A67B70109EEF8BB52.udd" 1868
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/7/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_31320DC84E5352B7D5326CB92F193C6__6D6DD7353BC4DEA0D5D51AC9C2EA85F1BA46DC9B.udd" 1869
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 1870
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 1871
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_A7BCBF29457A30B163B2B58AA8974__908CAFF667C22A5E9F7D155318CE669E5B39D84B.udd" 1872
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0879A8F148E81AB12329CC93E8430__4DB47461D1F56B72108351EE72D357CB04966C7C.udd" 1873
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_829196EA4E79969A8A8E5B94E3CBF__7F9FA6CDF00C70067A821311D8C4E32B4D766674.udd" 1874
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__C6D7F07BC9CEA8522D5ACBE7A37409FEBAB58436.udd" 1875
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__F22792E30D3DA434B30499375B7FB94164A90AE8.udd" 1876
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__B621B52E7655B7379EB341BCF0FD6998C464CD6F.udd" 1877
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__B87FC127FC6C5AB2E8C1C3B5A3044D29FD230691.udd" 1878
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__4C5A96A6B2EA73E85EFDE289C07380D78B5BBD47.udd" 1879
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/0/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__E13EE2AA2127EEC4C03942DC26AEB3A2D08B6008.udd" 1880
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/4/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__68AF3464C697F8E0162D4B5B6DFEC26191C4A8C4.udd" 1881
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__989B3683B389571341DD9968B2A232EA9B761968.udd" 1882
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 1883
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/8/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__B5268266EE304DF9899BAC0D9523CD447EFEA7DD.udd" 1884
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6555C2B6C47C8961D05A58BC6C458595194F4767.udd" 1885
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__A89F41BCFA952FC202072A73E72FCD9EB5B103E7.udd" 1886
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__D2413DE0C88F2F8143C599A1DD24932194E8539A.udd" 1887
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__62F430D259D132DA39F3032DCFB2293FDE830736.udd" 1888
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__1CDD5072CAA2FCFAFB85362401B9F39C33FE39CC.udd" 1889
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__21557B8BCEDE6B46A916A884798B11229B5868CC.udd" 1890
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/7/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__D9B287D973CBAD2E0F6C75A33A0C7D80D30A3501.udd" 1891
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__C638829A61CEDB40E00C65D5E63AEA3567035C2E.udd" 1892
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/9/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__592A5CB677AE1780CCFEB913A1C78AEB9A3C6A99.udd" 1893
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/1/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__96B9153C82D414DC4A9DFE00E897FA735ED48CD4.udd" 1894
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/2/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__872A8E5CED42770231BEDAA33CA7D1CBF660F515.udd" 1895
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/9/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CE8559BC37636288F633B97A2E10C44DA29FBF56.udd" 1896
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/2/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CEF92D8809385F805F5C46CA6771296333E7E133.udd" 1897
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/8/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6FAEBD055168ABC96D811A6E2760E9751ECEB40F.udd" 1898
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/7/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CCACAF29DF7F329805DA526238550EBFDFD4E211.udd" 1899
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__CE1AE7390AFBEED5DA583238DAE51A7B987B1545.udd" 1900
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_12B2A9D9471AB3B71A26BCA539101__CF0717A50E849B8AA6C363E52EED70D99AEF55CA.udd" 1901
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__0E40DB4CFF21711AE53CDB4D790F7025EAD897A6.udd" 1902
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/9/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__925AFBCD48E89753AB96DC97CE250ACC2EF96828.udd" 1903
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__2832B70549D5F77C2D37CB827007812E3A99B106.udd" 1904
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__8E8A1B7819AA0E39C712216BDB0BA419D180FECA.udd" 1905
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D38572C444E4A8DB026E439548F514E2__010D05EAB3B7D03C9BD1ABC07ADE3498F095B1EE.udd" 1906
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__ED34BDA6190D9147D8EFB0D98A4B2AD8D01C1F6C.udd" 1907
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_8AD946C44155A049C79A6BB4337DFF8E_0__235907EF3B4FF8F4E9FD45D5C7331515EB8E420C.udd" 1908
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_19CFAD144140B82C97702EA4509881F5_0__C873A0FC07CFCCA589EC2F8CEC6AC131ADAB8040.udd" 1909
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/5/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_8AD946C44155A049C79A6BB4337DFF8E_0__3DA1A041E98E216E109A29C98E4911A012C7964B.udd" 1910
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 1911
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 1912
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 1913
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 1914
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 1915
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 1916
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 1917
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 1918
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 1919
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 1920
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 1921
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 1922
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 1923
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 1924
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 1925
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 1926
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 1927
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 1928
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 1929
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 1930
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 1931
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 1932
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 1933
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 1934
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 1935
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InspectMenu/GenericInspectText.uasset" 1936
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericTextBlock.uasset" 1937
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericCheckbox.uasset" 1938
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericButton.uasset" 1939
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Node.uasset" 1940
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/DetailedNode.uasset" 1941
-"../../../Engine/Content/Maps/Entry.umap" 1942
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" 1943
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" 1944
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 1945
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 1946
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 1947
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 1948
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 1949
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 1950
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 1951
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonRun.uasset" 1952
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 1953
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 1954
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 1955
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1956
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1957
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1958
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1959
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1960
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 1961
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1962
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1963
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1964
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 1965
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1966
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 1967
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 1968
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 1969
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 1970
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/TemplateFloor.uasset" 1971
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" 1972
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/RampMaterial.uasset" 1973
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" 1974
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" 1975
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 1976
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 1977
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/StarterMap.umap" 1978
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 1979
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" 1980
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire01.uasset" 1981
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Fire.uasset" 1982
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" 1983
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" 1984
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" 1985
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" 1986
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" 1987
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" 1988
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" 1989
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 1990
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" 1991
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Smoke01.uasset" 1992
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Smoke.uasset" 1993
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 1994
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" 1995
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" 1996
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Sparks.uasset" 1997
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" 1998
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" 1999
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" 2000
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" 2001
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" 2002
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" 2003
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" 2004
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" 2005
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" 2006
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" 2007
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" 2008
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 2009
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 2010
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 2011
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" 2012
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" 2013
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" 2014
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" 2015
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" 2016
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" 2017
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" 2018
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" 2019
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 2020
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 2021
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" 2022
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 2023
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 2024
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 2025
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 2026
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" 2027
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" 2028
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 2029
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" 2030
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 2031
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 2032
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" 2033
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" 2034
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" 2035
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" 2036
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 2037
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 2038
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 2039
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" 2040
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" 2041
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" 2042
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" 2043
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" 2044
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" 2045
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" 2046
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" 2047
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" 2048
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" 2049
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" 2050
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" 2051
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" 2052
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" 2053
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" 2054
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" 2055
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" 2056
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" 2057
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" 2058
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" 2059
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" 2060
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" 2061
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 2062
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" 2063
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" 2064
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" 2065
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" 2066
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" 2067
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" 2068
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" 2069
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" 2070
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" 2071
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" 2072
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" 2073
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" 2074
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" 2075
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" 2076
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" 2077
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" 2078
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" 2079
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" 2080
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" 2081
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" 2082
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" 2083
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" 2084
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" 2085
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" 2086
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" 2087
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" 2088
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" 2089
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" 2090
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" 2091
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" 2092
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 2093
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 2094
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" 2095
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" 2096
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Water_N.uasset" 2097
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" 2098
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Water_M.uasset" 2099
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 2100
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 2101
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 2102
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 2103
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 2104
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" 2105
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" 2106
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" 2107
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" 2108
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" 2109
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" 2110
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" 2111
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" 2112
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" 2113
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" 2114
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Chair_M.uasset" 2115
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Chair_N.uasset" 2116
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" 2117
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" 2118
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" 2119
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" 2120
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse01.uasset" 2121
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse02.uasset" 2122
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" 2123
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" 2124
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" 2125
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" 2126
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" 2127
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Music01.uasset" 2128
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" 2129
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" 2130
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" 2131
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Chair.uasset" 2132
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" 2133
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" 2134
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Glass.uasset" 2135
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" 2136
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" 2137
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Statue.uasset" 2138
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" 2139
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Statue_M.uasset" 2140
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Statue_N.uasset" 2141
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" 2142
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_TableRound.uasset" 2143
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" 2144
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" 2145
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" 2146
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" 2147
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" 2148
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" 2149
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" 2150
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 2151
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 2152
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelTransitions/Nexus.umap" 2153
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/BaseLevelTest.umap" 2154
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/ForceFieldClass.uasset" 2155
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_GetState.uasset" 2156
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_SetState.uasset" 2157
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_Toggle.uasset" 2158
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_TurnOff.uasset" 2159
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_TurnOn.uasset" 2160
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo3.umap" 2161
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door.uasset" 2162
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/M_Door.uasset" 2163
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Open.uasset" 2164
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Unlock.uasset" 2165
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret_Member_Disable.uasset" 2166
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Platform_Move.uasset" 2167
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo1.umap" 2168
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeChangeWeightByHack.uasset" 2169
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/3/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__12B62714AC5FE116FB0ADC93215BB97DB184E82C.udd" 2170
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/0/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__C9D0E41E0A25D9D6F6715DE3D2371D23C8843CE9.udd" 2171
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/ExampleLevel.umap" 2172
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeChangeWeightByReference.uasset" 2173
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeDoubleWeightByHack.uasset" 2174
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeGetWeight.uasset" 2175
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/ToggleForcefieldByHack.uasset" 2176
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/BaseLevel.umap" 2177
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" 2178
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/ThirdPersonOverview.uasset" 2179
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/CubeMaterial.uasset" 2180
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" 2181
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" 2182
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 2183
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" 2184
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" 2185
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" 2186
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" 2187
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" 2188
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Door_N.uasset" 2189
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Door_M.uasset" 2190
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" 2191
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 2192
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 2193
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Bush_N.uasset" 2194
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Bush_D.uasset" 2195
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Burst_M.uasset" 2196
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" 2197
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" 2198
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" 2199
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" 2200
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" 2201
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" 2202
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" 2203
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" 2204
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" 2205
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" 2206
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" 2207
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" 2208
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" 2209
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" 2210
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" 2211
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" 2212
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" 2213
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" 2214
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 2215
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" 2216
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Door.uasset" 2217
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" 2218
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Stairs.uasset" 2219
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Shelf.uasset" 2220
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Rock.uasset" 2221
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" 2222
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Door.uasset" 2223
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Couch.uasset" 2224
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Bush.uasset" 2225
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" 2226
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" 2227
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" 2228
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" 2229
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Explosion.uasset" 2230
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" 2231
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 2232
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" 2233
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion01.uasset" 2234
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion02.uasset" 2235
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" 2236
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Steam01.uasset" 2237
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light02_Cue.uasset" 2238
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light02.uasset" 2239
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light01_Cue.uasset" 2240
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light01.uasset" 2241
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/TestLevel.umap" 2242
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/Minimal_Default.umap" 2243
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo2.umap" 2244
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_ForceField_Shutdown.uasset" 2245
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Platform_ChangeSpeed.uasset" 2246
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" 2247
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" 2248
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" 2249
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" 2250
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" 2251
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/ThingsThatWorkButShouldnt.uasset" 2252
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/ThingsThatShouldWorkButDont.uasset" 2253
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/TestPrint.uasset" 2254
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Test.uasset" 2255
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Loops.uasset" 2256
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 2257
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/9/ANIMSEQ_A6E18B049A324E8B8946E9CA6F32CE38_1_0_0_F41B9E5BF55D450BC8092FB29973823__B37600008D6C2C78E6E47B5F9A3CD8CEE58CD4C8.udd" 2258
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Turret_Disable.uasset" 2259
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Shield_Toggle.uasset" 2260
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret_Member_Enable.uasset" 2261
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Room/Room.uasset" 2262
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/CornerCube.uasset" 2263
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/9/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__E3F716F8B1F08EB09351162262F29C397DD5204B.udd" 2264
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/8/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_81E348564FF92DEFC__506A3420FCED1C3DE474D6D539809BEE52915AD9.udd" 2265
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/3/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_81E348564FF92DEFC52B1BBC290C9B4__C24C317932D76584C07C3D1D558DE4818932AD0C.udd" 2266
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_Stop.uasset" 2267
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_MoveAndWait_RTS.uasset" 2268
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_MoveAndWait.uasset" 2269
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_Move.uasset" 2270
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopStop.uasset" 2271
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopInfinite.uasset" 2272
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopCount.uasset" 2273
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_ChangeSpeed.uasset" 2274
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/PlatformClass.uasset" 2275
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_TurnOn.uasset" 2276
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_TurnOff.uasset" 2277
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_Toggle.uasset" 2278
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_SetState.uasset" 2279
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_GetState.uasset" 2280
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Lock.uasset" 2281
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Close.uasset" 2282
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/DoorClass.uasset" 2283
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset" 2284
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" 2285
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/BaseMaterial.uasset" 2286
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/2/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_C418824E4EA51B7AB__723AA31EF08176DA930B941245D6D28A6D6B2B02.udd" 2287
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/5/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_C418824E4EA51B7ABCD164BCEEBBFBB__DD013EBB74045A71A65EFDDF25DB7656548ABD22.udd" 2288
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/CubeMaterialOverride.uasset" 2289
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset" 2290
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset" 2291
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__A11E6ED288A5C9C5E553CE43FE45728ABBEF933A.udd" 2292
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__BE98BA959FA50D699EF6F3DC8801CC3DD788BC4B.udd" 2293
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Startmap.umap" 1654
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/CodeComponent.uasset" 1655
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/CodeGameInstance.uasset" 1656
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Pointers.uasset" 1657
+"../../../Engine/Content/BasicShapes/Cube.uasset" 1658
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 1659
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 1660
+"../../../Engine/Content/BasicShapes/Cone.uasset" 1661
+"../../../Engine/Content/BasicShapes/Plane.uasset" 1662
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 1663
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 1664
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Intermediate/AssetRegistryCache/cfeb52af.bin" 1665
+"../../../Engine/Config/HTML5/HTML5Engine.ini" 1666
+"../../../Engine/Content/EngineMeshes/Cube.uasset" 1667
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 1668
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset" 1669
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset" 1670
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset" 1671
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset" 1672
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 1673
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 1674
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 1675
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 1676
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 1677
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 1678
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 1679
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 1680
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1681
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 1682
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset" 1683
+"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset" 1684
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset" 1685
+"../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset" 1686
+"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 1687
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset" 1688
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset" 1689
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset" 1690
+"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 1691
+"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset" 1692
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset" 1693
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 1694
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 1695
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1696
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 1697
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 1698
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 1699
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 1700
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 1701
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 1702
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 1703
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodeGameMode.uasset" 1704
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodeCharacter.uasset" 1705
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 1706
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 1707
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 1708
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 1709
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 1710
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 1711
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 1712
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/BasicComponent.uasset" 1713
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/CodeComponentInstance.uasset" 1714
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/CodeComponent/ReferenceData.uasset" 1715
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/CodePlayerController.uasset" 1716
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ClassStatics.uasset" 1717
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/InspectComponent.uasset" 1718
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/GenericInspectionCodeInfo.uasset" 1719
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/ClassDataNode.uasset" 1720
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/FunctionDataNode.uasset" 1721
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ClassData/VariableDataNode.uasset" 1722
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Components/InspectComponent/GenericInspectionWidget.uasset" 1723
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IInteractable.uasset" 1724
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IPickupable.uasset" 1725
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IWeight.uasset" 1726
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/IShootable.uasset" 1727
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 1728
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 1729
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 1730
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 1731
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 1732
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1733
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1734
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1735
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1736
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1737
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 1738
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1739
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1740
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1741
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 1742
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1743
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 1744
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" 1745
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset" 1746
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1747
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1748
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1749
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1750
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 1751
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1752
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1753
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1754
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset" 1755
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset" 1756
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 1757
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/CodeSaveGame.uasset" 1758
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/DebugClass.uasset" 1759
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/GetCodeAssetList.uasset" 1760
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/GetLevelList.uasset" 1761
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/SetCodeRunnerMaxSteps.uasset" 1762
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_ClearSavedLevels.uasset" 1763
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_OpenLevel_String.uasset" 1764
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_OpenLevel_String_RTS.uasset" 1765
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/Void_SaveLevel_String.uasset" 1766
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Core/GameInstance/WriteCodeAsset.uasset" 1767
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Basic.uasset" 1768
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/PrintString.uasset" 1769
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Wait/Void_Wait_Float.uasset" 1770
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/Wait/Void_Wait_Float_RTS.uasset" 1771
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelClass.uasset" 1772
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelReset/Void_Reset.uasset" 1773
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Predefined/LevelReset/Void_Reset_RTS.uasset" 1774
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Console.uasset" 1775
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/ConsoleOptions.uasset" 1776
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ConsoleTextBlock.uasset" 1777
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/OptionHeader.uasset" 1778
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Options/OptionsButton.uasset" 1779
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ParseError/parseError.uasset" 1780
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/ParseError/Pass.uasset" 1781
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/HUD.uasset" 1782
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset" 1783
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/Hack.uasset" 1784
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/Interact.uasset" 1785
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/HUD/QuestionMark.uasset" 1786
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/PipBoyUI.uasset" 1787
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/Tab/TabButton.uasset" 1788
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Menu/Tab/TabText.uasset" 1789
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InspectMenu/DefaultInspectText.uasset" 1790
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InteractMenu/InteractText.uasset" 1791
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenu.uasset" 1792
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenuButton.uasset" 1793
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/MainMenu/MainMenuText.uasset" 1794
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/BubbleSort.uasset" 1795
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Expressions.uasset" 1796
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Inheritance.uasset" 1797
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 1798
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 1799
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 1800
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 1801
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1802
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1803
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1804
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1805
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1806
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Flashy/Flashy.uasset" 1807
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Flashy/M_Flashy.uasset" 1808
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" 1809
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" 1810
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Button.uasset" 1811
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Interfaces/IEnableable.uasset" 1812
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Meshes/SM_Button.uasset" 1813
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_Button.uasset" 1814
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_Button_Chrome.uasset" 1815
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Button/Materials/M_ButtonBase.uasset" 1816
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/Forcefield.uasset" 1817
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/M_Forcefield.uasset" 1818
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 1819
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 1820
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 1821
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/1M_Cube.uasset" 1822
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/CubeMaterial.uasset" 1823
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/LevelEnd/LevelEnd.uasset" 1824
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/LevelEnd/M_LevelEndPortal.uasset" 1825
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" 1826
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" 1827
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Frame_M.uasset" 1828
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Frame_N.uasset" 1829
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform.uasset" 1830
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_PlatformDestination.uasset" 1831
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_Platform.uasset" 1832
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Materials/M_PlatformMain.uasset" 1833
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1834
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" 1835
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" 1836
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/PlatformClass.uasset" 1837
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_ChangeSpeed.uasset" 1838
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/RTS_FunctionLibrary.uasset" 1839
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopCount.uasset" 1840
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopInfinite.uasset" 1841
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_LoopStop.uasset" 1842
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_Move.uasset" 1843
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_MoveAndWait.uasset" 1844
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_MoveAndWait_RTS.uasset" 1845
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Platform/Platform_Member_Stop.uasset" 1846
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/PressurePlate.uasset" 1847
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Meshes/SM_PressurePlate.uasset" 1848
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Materials/M_Orange_Shiny.uasset" 1849
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Meshes/SM_PressurePlateBase.uasset" 1850
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PresurePlate/Materials/M_PressurePlateBase.uasset" 1851
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Spawner/Spawner.uasset" 1852
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PickupCube/PickupCube.uasset" 1853
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/PickupCube/M_PickUpCube.uasset" 1854
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" 1855
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" 1856
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/Terminal.uasset" 1857
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/GenericTerminalFunction.uasset" 1858
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/GenericTerminalData.uasset" 1859
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 1860
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Terminal/TerminalRTS.uasset" 1861
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret.uasset" 1862
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Bullet.uasset" 1863
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 1864
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/MaterialSphere.uasset" 1865
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Startmap_BuiltData.uasset" 1866
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/4/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__ED1677DFE04AEAD9A6B7D39B23A46B131EA42FDE.udd" 1867
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/2/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_3E649BB34D3D14D86__F02969C2CBDF823F5029E1C6F3C9190AED306380.udd" 1868
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/3/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__98B67C097065F1CA32D6E4CB990C3FC4B744F4AF.udd" 1869
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/9/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_259BB4E848BA0168E__A559A0B5F2BC65362C2A5A69A5BB72B80EAEAADF.udd" 1870
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/1/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__F4BB78244EB607F9AB1717BD632DC7E13975B93D.udd" 1871
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/8/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_31320DC84E5352B7D__4190CE17B779AE7522A9C12A67B70109EEF8BB52.udd" 1872
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/9/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__60615DB2C5EA369BF6C9A6E6B87C314F2C32CE16.udd" 1873
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/5/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_47ADB5984A631743B__F5F478C49DDFC5E9ADD4E482FB9708B933DA225A.udd" 1874
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/9/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_3E649BB34D3D14D86BBB58AC73E5BC4__3760D0CDAC62650358822F4629B2A99963902FD4.udd" 1875
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/7/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_31320DC84E5352B7D5326CB92F193C6__6D6DD7353BC4DEA0D5D51AC9C2EA85F1BA46DC9B.udd" 1876
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/2/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_47ADB5984A631743B542C9BD9178124__F58D2DAE995341CF0DE775C34343A49C00E84D91.udd" 1877
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/2/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_259BB4E848BA0168E29EADAF002ED45__B757F315B0C73BF1959BDFA7EEBF8A89D09306B0.udd" 1878
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 1879
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 1880
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/4/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_A7BCBF29457A30B163B2B58AA8974__908CAFF667C22A5E9F7D155318CE669E5B39D84B.udd" 1881
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0879A8F148E81AB12329CC93E8430__4DB47461D1F56B72108351EE72D357CB04966C7C.udd" 1882
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_829196EA4E79969A8A8E5B94E3CBF__7F9FA6CDF00C70067A821311D8C4E32B4D766674.udd" 1883
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__C6D7F07BC9CEA8522D5ACBE7A37409FEBAB58436.udd" 1884
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__F22792E30D3DA434B30499375B7FB94164A90AE8.udd" 1885
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__B621B52E7655B7379EB341BCF0FD6998C464CD6F.udd" 1886
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_6C5C2BD5497866E0BD385B9DA56F2__B87FC127FC6C5AB2E8C1C3B5A3044D29FD230691.udd" 1887
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__4C5A96A6B2EA73E85EFDE289C07380D78B5BBD47.udd" 1888
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/0/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__E13EE2AA2127EEC4C03942DC26AEB3A2D08B6008.udd" 1889
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 1890
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/4/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__68AF3464C697F8E0162D4B5B6DFEC26191C4A8C4.udd" 1891
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__989B3683B389571341DD9968B2A232EA9B761968.udd" 1892
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/8/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__B5268266EE304DF9899BAC0D9523CD447EFEA7DD.udd" 1893
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6555C2B6C47C8961D05A58BC6C458595194F4767.udd" 1894
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__A89F41BCFA952FC202072A73E72FCD9EB5B103E7.udd" 1895
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__D2413DE0C88F2F8143C599A1DD24932194E8539A.udd" 1896
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__62F430D259D132DA39F3032DCFB2293FDE830736.udd" 1897
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/5/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__1CDD5072CAA2FCFAFB85362401B9F39C33FE39CC.udd" 1898
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__21557B8BCEDE6B46A916A884798B11229B5868CC.udd" 1899
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/7/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__D9B287D973CBAD2E0F6C75A33A0C7D80D30A3501.udd" 1900
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/6/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__C638829A61CEDB40E00C65D5E63AEA3567035C2E.udd" 1901
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/9/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__592A5CB677AE1780CCFEB913A1C78AEB9A3C6A99.udd" 1902
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/1/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__96B9153C82D414DC4A9DFE00E897FA735ED48CD4.udd" 1903
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/2/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__872A8E5CED42770231BEDAA33CA7D1CBF660F515.udd" 1904
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/9/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CE8559BC37636288F633B97A2E10C44DA29FBF56.udd" 1905
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/2/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CEF92D8809385F805F5C46CA6771296333E7E133.udd" 1906
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/8/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__6FAEBD055168ABC96D811A6E2760E9751ECEB40F.udd" 1907
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/7/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__CCACAF29DF7F329805DA526238550EBFDFD4E211.udd" 1908
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 1909
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 1910
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__CE1AE7390AFBEED5DA583238DAE51A7B987B1545.udd" 1911
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/2/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__ED34BDA6190D9147D8EFB0D98A4B2AD8D01C1F6C.udd" 1912
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_D2FBFC5F44F27E603F76A0BF5FE05__0E40DB4CFF21711AE53CDB4D790F7025EAD897A6.udd" 1913
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/9/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__925AFBCD48E89753AB96DC97CE250ACC2EF96828.udd" 1914
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/2/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__2832B70549D5F77C2D37CB827007812E3A99B106.udd" 1915
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_1F1A01354DE26A5A0578298E541E0EF7__8E8A1B7819AA0E39C712216BDB0BA419D180FECA.udd" 1916
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_DXT1_D38572C444E4A8DB026E439548F514E2__010D05EAB3B7D03C9BD1ABC07ADE3498F095B1EE.udd" 1917
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/3/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_8AD946C44155A049C79A6BB4337DFF8E_0__235907EF3B4FF8F4E9FD45D5C7331515EB8E420C.udd" 1918
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/5/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_8AD946C44155A049C79A6BB4337DFF8E_0__3DA1A041E98E216E109A29C98E4911A012C7964B.udd" 1919
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/4/TEXTURE_814DCC3DC72143F49509781513CB9855_G8_19CFAD144140B82C97702EA4509881F5_0__C873A0FC07CFCCA589EC2F8CEC6AC131ADAB8040.udd" 1920
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/3/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_12B2A9D9471AB3B71A26BCA539101__CF0717A50E849B8AA6C363E52EED70D99AEF55CA.udd" 1921
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 1922
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 1923
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 1924
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 1925
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 1926
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 1927
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 1928
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 1929
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 1930
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 1931
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 1932
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 1933
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 1934
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 1935
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 1936
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 1937
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 1938
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 1939
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 1940
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 1941
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 1942
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 1943
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 1944
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/InspectMenu/GenericInspectText.uasset" 1945
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericTextBlock.uasset" 1946
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericCheckbox.uasset" 1947
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/GenericElements/GenericButton.uasset" 1948
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/Node.uasset" 1949
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/UI/DetailedNode.uasset" 1950
+"../../../Engine/Content/Maps/Entry.umap" 1951
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" 1952
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" 1953
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 1954
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 1955
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 1956
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 1957
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 1958
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 1959
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 1960
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonRun.uasset" 1961
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 1962
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 1963
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 1964
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 1965
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 1966
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 1967
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 1968
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 1969
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 1970
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 1971
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 1972
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 1973
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 1974
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 1975
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 1976
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 1977
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 1978
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 1979
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Geometry/Meshes/TemplateFloor.uasset" 1980
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" 1981
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/RampMaterial.uasset" 1982
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" 1983
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" 1984
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 1985
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 1986
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/StarterMap.umap" 1987
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 1988
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" 1989
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire01.uasset" 1990
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Fire.uasset" 1991
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" 1992
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" 1993
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" 1994
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" 1995
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" 1996
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" 1997
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" 1998
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 1999
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" 2000
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Smoke01.uasset" 2001
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Smoke.uasset" 2002
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 2003
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" 2004
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" 2005
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Sparks.uasset" 2006
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" 2007
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" 2008
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" 2009
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" 2010
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" 2011
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" 2012
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" 2013
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" 2014
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" 2015
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" 2016
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" 2017
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 2018
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 2019
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 2020
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" 2021
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" 2022
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" 2023
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" 2024
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" 2025
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" 2026
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" 2027
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" 2028
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 2029
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 2030
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" 2031
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 2032
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 2033
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 2034
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 2035
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" 2036
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" 2037
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 2038
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" 2039
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 2040
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 2041
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" 2042
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" 2043
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" 2044
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" 2045
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 2046
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 2047
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 2048
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" 2049
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" 2050
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" 2051
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" 2052
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" 2053
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" 2054
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" 2055
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" 2056
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" 2057
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" 2058
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" 2059
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" 2060
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" 2061
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" 2062
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" 2063
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" 2064
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" 2065
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" 2066
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" 2067
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" 2068
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" 2069
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" 2070
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 2071
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" 2072
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" 2073
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" 2074
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" 2075
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" 2076
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" 2077
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" 2078
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" 2079
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" 2080
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" 2081
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" 2082
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" 2083
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" 2084
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" 2085
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" 2086
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" 2087
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" 2088
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" 2089
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" 2090
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" 2091
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" 2092
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" 2093
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" 2094
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" 2095
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" 2096
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" 2097
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" 2098
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" 2099
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" 2100
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" 2101
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 2102
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 2103
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" 2104
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" 2105
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Water_N.uasset" 2106
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" 2107
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Water_M.uasset" 2108
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 2109
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 2110
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 2111
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 2112
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 2113
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" 2114
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" 2115
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" 2116
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" 2117
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" 2118
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" 2119
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" 2120
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" 2121
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" 2122
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" 2123
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Chair_M.uasset" 2124
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Chair_N.uasset" 2125
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" 2126
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" 2127
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" 2128
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" 2129
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse01.uasset" 2130
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Collapse02.uasset" 2131
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" 2132
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" 2133
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" 2134
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" 2135
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" 2136
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Starter_Music01.uasset" 2137
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" 2138
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" 2139
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" 2140
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Chair.uasset" 2141
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" 2142
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" 2143
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Materials/M_Glass.uasset" 2144
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" 2145
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" 2146
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Statue.uasset" 2147
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" 2148
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Statue_M.uasset" 2149
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Statue_N.uasset" 2150
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" 2151
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_TableRound.uasset" 2152
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" 2153
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" 2154
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" 2155
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" 2156
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" 2157
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" 2158
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" 2159
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 2160
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 2161
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelTransitions/Nexus.umap" 2162
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/BaseLevelTest.umap" 2163
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/ForceFieldClass.uasset" 2164
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_GetState.uasset" 2165
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_SetState.uasset" 2166
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_Toggle.uasset" 2167
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_TurnOff.uasset" 2168
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Member_TurnOn.uasset" 2169
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/PlatformChangeSpeed.uasset" 2170
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo3.umap" 2171
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door.uasset" 2172
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/M_Door.uasset" 2173
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Open.uasset" 2174
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Unlock.uasset" 2175
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret_Member_Disable.uasset" 2176
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Platform_Move.uasset" 2177
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo1.umap" 2178
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeChangeWeightByHack.uasset" 2179
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/3/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM5_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__12B62714AC5FE116FB0ADC93215BB97DB184E82C.udd" 2180
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/0/MATSM_00C21D1DE462418ABCDF262EC737C276_PCD3D_SM4_7__BC5N_NOCCBN_DEV_SL_DBUF_UN__C9D0E41E0A25D9D6F6715DE3D2371D23C8843CE9.udd" 2181
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/ExampleLevel.umap" 2182
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeChangeWeightByReference.uasset" 2183
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeDoubleWeightByHack.uasset" 2184
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/CubeGetWeight.uasset" 2185
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/ExampleLevel/ToggleForcefieldByHack.uasset" 2186
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/BaseLevel.umap" 2187
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" 2188
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPersonBP/ThirdPersonOverview.uasset" 2189
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/ThirdPerson/Meshes/CubeMaterial.uasset" 2190
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" 2191
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" 2192
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 2193
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" 2194
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" 2195
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" 2196
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" 2197
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" 2198
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Door_N.uasset" 2199
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Door_M.uasset" 2200
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" 2201
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 2202
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 2203
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Bush_N.uasset" 2204
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Bush_D.uasset" 2205
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Textures/T_Burst_M.uasset" 2206
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" 2207
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" 2208
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" 2209
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" 2210
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" 2211
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" 2212
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" 2213
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" 2214
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" 2215
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" 2216
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" 2217
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" 2218
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" 2219
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" 2220
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" 2221
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" 2222
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" 2223
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" 2224
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 2225
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" 2226
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Door.uasset" 2227
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" 2228
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Stairs.uasset" 2229
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Shelf.uasset" 2230
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Rock.uasset" 2231
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" 2232
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Door.uasset" 2233
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Couch.uasset" 2234
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Props/SM_Bush.uasset" 2235
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" 2236
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" 2237
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" 2238
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" 2239
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Particles/P_Explosion.uasset" 2240
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" 2241
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 2242
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" 2243
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion01.uasset" 2244
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Explosion02.uasset" 2245
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" 2246
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Steam01.uasset" 2247
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/TestLevel/TestLevel.umap" 2248
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light02_Cue.uasset" 2249
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light02.uasset" 2250
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light01_Cue.uasset" 2251
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Audio/Light01.uasset" 2252
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Maps/Minimal_Default.umap" 2253
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Level_Demo2.umap" 2254
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_ForceField_Shutdown.uasset" 2255
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Platform_ChangeSpeed.uasset" 2256
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" 2257
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" 2258
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" 2259
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" 2260
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" 2261
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/ThingsThatWorkButShouldnt.uasset" 2262
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/ThingsThatShouldWorkButDont.uasset" 2263
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/TestPrint.uasset" 2264
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Test.uasset" 2265
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/MiscCodeAssets/Loops.uasset" 2266
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 2267
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/0/9/ANIMSEQ_A6E18B049A324E8B8946E9CA6F32CE38_1_0_0_F41B9E5BF55D450BC8092FB29973823__B37600008D6C2C78E6E47B5F9A3CD8CEE58CD4C8.udd" 2268
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Turret_Disable.uasset" 2269
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/Levels/RealLevels/Fun_Shield_Toggle.uasset" 2270
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Turret/Turret_Member_Enable.uasset" 2271
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Room/Room.uasset" 2272
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/CornerCube.uasset" 2273
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/9/STATICMESH_8CAD439CF4B14211ACC831AE9C7C98BC_228332BAE0224DD294E232B87D83948F1$__E3F716F8B1F08EB09351162262F29C397DD5204B.udd" 2274
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/8/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_81E348564FF92DEFC__506A3420FCED1C3DE474D6D539809BEE52915AD9.udd" 2275
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/3/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_81E348564FF92DEFC52B1BBC290C9B4__C24C317932D76584C07C3D1D558DE4818932AD0C.udd" 2276
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_TurnOn.uasset" 2277
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_TurnOff.uasset" 2278
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_Toggle.uasset" 2279
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_SetState.uasset" 2280
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/ForceField/FF_Param_GetState.uasset" 2281
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Lock.uasset" 2282
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/Door_Member_Close.uasset" 2283
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/LevelAssets/Door/DoorClass.uasset" 2284
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset" 2285
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" 2286
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/BaseMaterial.uasset" 2287
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/2/NAVCOLLISION_B89838347A4348138EE337A847529C5C_NAVCOLLISION_X_C418824E4EA51B7AB__723AA31EF08176DA930B941245D6D28A6D6B2B02.udd" 2288
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/5/PHYSX_0A50D9145BC447B69254BED33438406D_PHYSXPC_C418824E4EA51B7ABCD164BCEEBBFBB__DD013EBB74045A71A65EFDDF25DB7656548ABD22.udd" 2289
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Meshes/CubeMaterialOverride.uasset" 2290
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset" 2291
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset" 2292
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/7/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__A11E6ED288A5C9C5E553CE43FE45728ABBEF933A.udd" 2293
 "C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/9/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__702B3488C4A8118A1FF835D4ACE6AC94E3674012.udd" 2294
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__DE0BDD4890599A154A315ED5EACCADF407B25B03.udd" 2295
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 2296
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__345F7BA2E497068D5A9EEFC20381BFABD9602478.udd" 2297
-"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__8C2D5A49FB9B8D4C79D135B7272B0836F76DC28A.udd" 2298
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 2299
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 2300
-"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 2301
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 2302
-"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 2303
-"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 2304
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 2305
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 2306
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 2307
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 2308
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 2309
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 2295
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/8/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__BE98BA959FA50D699EF6F3DC8801CC3DD788BC4B.udd" 2296
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/1/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__DE0BDD4890599A154A315ED5EACCADF407B25B03.udd" 2297
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/0/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__345F7BA2E497068D5A9EEFC20381BFABD9602478.udd" 2298
+"C:/Users/ADRIAN/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/5/TEXTURE_814DCC3DC72143F49509781513CB9855_AUTODXT_0FB5F6974A1E1974F02BDF98F97A7__8C2D5A49FB9B8D4C79D135B7272B0836F76DC28A.udd" 2299
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" 2300
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" 2301
+"../../../../../../Users/ADRIAN/Documents/Unreal Projects/OperationCode/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 2302
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 2303
+"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 2304
+"../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset" 2305
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 2306
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset" 2307
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset" 2308
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 2309
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 2310

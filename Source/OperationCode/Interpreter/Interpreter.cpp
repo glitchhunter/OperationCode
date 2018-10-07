@@ -109,7 +109,7 @@ USymbolTable* UInterpreter::Analyse(UAST_Node* RootNode, UValue* TopOwner)
 	return SemAnalysis->AnalyseAST(RootNode, TopOwner);
 }
 
-void UInterpreter::RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun)
+void UInterpreter::RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun, int32 MaxSteps)
 {
 	if (CurrentState == EInterpreterState::RunningCode)
 	{
@@ -123,6 +123,7 @@ void UInterpreter::RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool 
 	CodeRunner = NewObject<UCodeRunner>(this);
 	CodeRunner->Init(this);
 	CodeRunner->AutoRun = AutoRun;
+	CodeRunner->MaxStepsPerFrame = MaxSteps;
 
 	CurrentState = EInterpreterState::RunningCode;
 	CodeRunner->RunCode(RootNode, symbolTable);

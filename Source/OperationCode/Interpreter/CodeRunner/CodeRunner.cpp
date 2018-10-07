@@ -12,6 +12,7 @@
 #include "Interpreter/CodeRunner/Values/TypeValue.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_StaticInitializer.h"
 #include "Interpreter/SemanticAnalysis/SymbolTable.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
 
 
 

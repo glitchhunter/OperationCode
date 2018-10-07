@@ -3,6 +3,7 @@
 #include "RTS_BoolLiteral.h"
 #include "Interpreter/Parser/AST/Expressions/Literals/AST_BoolLiteral.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
 
 
 

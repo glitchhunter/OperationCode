@@ -127,6 +127,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool AutoRun = true;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 MaxStepsPerFrame = 500;
+
 
 protected:
 
@@ -153,9 +156,6 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UValue* TempOwner;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 MaxStepsPerFrame = 500;
 
 	FTimerHandle FrameDelayTimerHandle;
 	

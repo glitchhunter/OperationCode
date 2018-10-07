@@ -100,7 +100,7 @@ public:
 	USymbolTable* Analyse(UAST_Node* RootNode, UValue* TopOwner);
 
 	UFUNCTION(BlueprintCallable)
-	void RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun);
+	void RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun, int32 MaxSetps);
 
 	UFUNCTION(BlueprintPure)
 	TArray<FString> GetErrors() const { return Errors; }

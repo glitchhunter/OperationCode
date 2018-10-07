@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Interpreter/InterpreterComponent.h"
 #include "Tokens/Token.h"
+#include "Runtime/CoreUObject/Public/Templates/SubclassOf.h"
 #include "Lexer.generated.h"
 
 /**

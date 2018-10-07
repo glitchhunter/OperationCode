@@ -3,6 +3,12 @@
 #include "RTS_FunctionDefinition.h"
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
 #include "Interpreter/Parser/AST/AST_Scope.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
+
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/FloatInstance.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/IntInstance.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/StringInstance.h"
 
 
 void URTS_FunctionDefinition::RunStep()

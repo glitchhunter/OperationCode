@@ -3,6 +3,7 @@
 #include "RTS_StringLiteral.h"
 #include "Interpreter/Parser/AST/Expressions/Literals/AST_StringLiteral.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/StringInstance.h"
 
 
 

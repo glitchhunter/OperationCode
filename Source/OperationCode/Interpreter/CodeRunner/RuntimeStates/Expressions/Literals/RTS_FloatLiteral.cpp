@@ -3,6 +3,7 @@
 #include "RTS_FloatLiteral.h"
 #include "Interpreter/Parser/AST/Expressions/Literals/AST_FloatLiteral.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/FloatInstance.h"
 
 
 

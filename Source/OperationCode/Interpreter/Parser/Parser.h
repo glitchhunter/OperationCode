@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Interpreter/InterpreterComponent.h"
 #include "Parser.generated.h"
 

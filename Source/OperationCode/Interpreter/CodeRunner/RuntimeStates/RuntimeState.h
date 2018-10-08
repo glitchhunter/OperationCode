@@ -12,7 +12,7 @@ class UAST_Node;
 /**
  * 
  */
-UCLASS(Abstract)
+UCLASS(BlueprintType)
 class URuntimeState : public UObject
 {
 	GENERATED_BODY()

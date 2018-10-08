@@ -67,6 +67,7 @@ public:
 
 	void AddVariable(FString Varname, UValue* Value);
 
+	UFUNCTION(BlueprintCallable)
 	void AddRTS(URuntimeState* RuntimeState);
 
 	void PopRTS();

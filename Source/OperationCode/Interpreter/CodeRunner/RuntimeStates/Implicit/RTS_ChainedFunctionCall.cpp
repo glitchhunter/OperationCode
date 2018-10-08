@@ -2,6 +2,12 @@
 
 #include "RTS_ChainedFunctionCall.h"
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
+
+void URTS_ChainedFunctionCall::SetCodeRunner(UCodeRunner* CodeRun)
+{
+	Init(CodeRun);
+}
 
 void URTS_ChainedFunctionCall::RunStep()
 {

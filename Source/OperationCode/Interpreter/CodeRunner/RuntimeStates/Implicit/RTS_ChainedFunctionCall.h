@@ -20,8 +20,11 @@ public:
 
 	virtual void RunStep() override;
 
+	UFUNCTION(BlueprintCallable)
 	void SetData(UAST_FunctionDefinition* functionDefinition, UValue* owner, TArray<UValue*> values);
 
+	UFUNCTION(BlueprintCallable, Category = "WhyWontYouWork")
+		void SetCodeRunner(UCodeRunner* codeRun);
 
 
 protected:

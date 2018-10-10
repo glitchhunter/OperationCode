@@ -16,7 +16,7 @@ class OPERATIONCODE_API UAST_Definition : public UAST_Node
 	
 public:
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MultiLine = "true"))
 	FString Comment;
 	
 };

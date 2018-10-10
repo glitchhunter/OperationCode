@@ -37,7 +37,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	FString Type;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsArray;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)

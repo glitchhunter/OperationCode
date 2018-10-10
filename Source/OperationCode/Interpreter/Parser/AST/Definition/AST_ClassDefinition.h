@@ -34,7 +34,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Instanced)
 	TArray<UAST_FunctionDefinition*> FunctionDefinitions;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Instanced)
 	TArray<UAST_VariableDefinition*> VariableDefinitions;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)

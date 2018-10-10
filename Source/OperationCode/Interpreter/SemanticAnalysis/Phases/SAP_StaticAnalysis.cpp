@@ -79,6 +79,19 @@ void USAP_StaticAnalysis::Analyse(UAST_VariableCall* VariableCall)
 	// Find as local variable
 	if (LocalVariableNames.Contains(VariableCall->VariableName)) return;
 
+	// Find as a variable in top owner
+	UAST_ClassDefinition* CurrentClass = GetSymbolTable()->ClassNames[GetSymbolTable()->TopOwner->Type];
+	while (CurrentClass)
+	{
+		for (UAST_VariableDefinition* currentVarDef : CurrentClass->VariableDefinitions)
+		{
+			if (currentVarDef->Name == VariableCall->VariableName) return;
+		}
+
+		// Go to parent
+		CurrentClass = GetSymbolTable()->ClassInheritance[CurrentClass];
+	}
+
 
 	ThrowError("Cannot call variable \"" + VariableCall->VariableName + "\" from inside a static function \""
 		+ currentFunction->FunctionData.FunctionName + "\".");
@@ -114,6 +127,19 @@ void USAP_StaticAnalysis::Analyse(UAST_FunctionCall* FunctionCall)
 			// Static function exists in global scope
 			if (GetSymbolTable()->GetFunctionMatch(FunctionCall, FunDef->FunctionData.GetSignature(), "") != EFunctionMatching::NoMatch) return;
 		}
+	}
+
+	// Find as a function in top owner
+	UAST_ClassDefinition* CurrentClass = GetSymbolTable()->ClassNames[GetSymbolTable()->TopOwner->Type];
+	while (CurrentClass)
+	{
+		for (UAST_FunctionDefinition* CurrentFunDef : CurrentClass->FunctionDefinitions)
+		{
+			if (GetSymbolTable()->GetFunctionMatch(FunctionCall, CurrentFunDef->FunctionData.GetSignature(), "") != EFunctionMatching::NoMatch) return;
+		}
+
+		// Go to parent
+		CurrentClass = GetSymbolTable()->ClassInheritance[CurrentClass];
 	}
 
 	// There is no static function that matches this call defined in either owning class or global scope.

@@ -6,6 +6,8 @@
 #include "Interpreter/Predefined/Float/Arithmetic/Float_Divide_FloatFloat.h"
 #include "Interpreter/Predefined/Float/Arithmetic/Float_Multiply_FloatFloat.h"
 #include "Interpreter/Predefined/Float/Arithmetic/Float_Subtract_FloatFloat.h"
+#include "Interpreter/Predefined/Float/Arithmetic/UnaryMinus_Float.h"
+#include "Interpreter/Predefined/Float/Arithmetic/UnaryPlus_Float.h"
 
 #include "Interpreter/Predefined/Float/Logical/Bool_Equals_FloatFloat.h"
 #include "Interpreter/Predefined/Float/Logical/Bool_Greater_FloatFloat.h"
@@ -26,6 +28,8 @@ UFloatClass::UFloatClass()
 	FunctionDefinitions.Add(CreateDefaultSubobject<UFloat_Divide_FloatFloat>(TEXT("Divide")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UFloat_Multiply_FloatFloat>(TEXT("Multiply")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UFloat_Subtract_FloatFloat>(TEXT("Subtract")));
+	FunctionDefinitions.Add(CreateDefaultSubobject<UUnaryMinus_Float>(TEXT("Unary minus")));
+	FunctionDefinitions.Add(CreateDefaultSubobject<UUnaryPlus_Float>(TEXT("Unary plus")));
 
 	FunctionDefinitions.Add(CreateDefaultSubobject<UBool_Equals_FloatFloat>(TEXT("Equals")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UBool_GreaterOrEqual_FloatFloat>(TEXT("Greater or equal")));

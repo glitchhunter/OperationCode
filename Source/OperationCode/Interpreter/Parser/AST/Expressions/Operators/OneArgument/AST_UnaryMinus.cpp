@@ -4,7 +4,7 @@
 
 UAST_UnaryMinus::UAST_UnaryMinus()
 {
-	Description = "Unary -";
+	Description = "-";
 	Sign = "-";
 	Precedence = 3;
 	Associativity = EOperatorAssociativity::RightToLeft;

@@ -11,6 +11,8 @@
 #include "Interpreter/Predefined/Int/Arithmetic/Int_OperatorPlus_IntInt.h"
 #include "Interpreter/Predefined/Int/Arithmetic/Int_OperatorPlusPlusPrefix_Int.h"
 #include "Interpreter/Predefined/Int/Arithmetic/Int_OperatorPlusPlusSuffix_Int.h"
+#include "Interpreter/Predefined/Int/Arithmetic/UnaryMinus_Int.h"
+#include "Interpreter/Predefined/Int/Arithmetic/UnaryPlus_Int.h"
 
 #include "Interpreter/Predefined/Int/Logical/Bool_Equals_IntInt.h"
 #include "Interpreter/Predefined/Int/Logical/Bool_Greater_IntInt.h"
@@ -39,6 +41,8 @@ UIntClass::UIntClass()
 	FunctionDefinitions.Add(CreateDefaultSubobject<UInt_OperatorPlus_IntInt>(TEXT("Add")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UInt_OperatorPlusPlusPrefix_Int>(TEXT("++(prefix)")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UInt_OperatorPlusPlusSuffix_Int>(TEXT("++(suffix)")));
+	FunctionDefinitions.Add(CreateDefaultSubobject<UUnaryMinus_Int>(TEXT("Unary minus")));
+	FunctionDefinitions.Add(CreateDefaultSubobject<UUnaryPlus_Int>(TEXT("Unary plus")));
 
 	FunctionDefinitions.Add(CreateDefaultSubobject<UBool_Equals_IntInt>(TEXT("Equals")));
 	FunctionDefinitions.Add(CreateDefaultSubobject<UBool_Greater_IntInt>(TEXT("Greater")));

@@ -20,9 +20,12 @@ UValue* UElement_Get_Int::Run_Implementation(USimpleFunctionDefinitionRTS* RTS)
 {
 	int32 index = RTS->GetIntValue("index");
 	UArrayInstance* arrayInstance = Cast<UArrayInstance>(RTS->GetOwner());
+
+	// Throw runtime error if we try to get an element at an invalid index
 	if (!arrayInstance->Value.IsValidIndex(index))
 	{
-		RTS->AddDebugMessage("Invalid index.");
+		RTS->ThrowRuntimeError("Tried to access an element at index " + FString::FromInt(index)
+			+ " in array of size " + FString::FromInt(arrayInstance->Value.Num()) + ".");
 		return nullptr;
 	}
 	RTS->AddDebugMessage("Returning the element at index " + FString::FromInt(index) + ".");

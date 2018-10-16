@@ -270,4 +270,9 @@ void UCodeRunner::AbortExecution()
 }
 
 
+void UCodeRunner::RuntimeError(FString ErrorMessage)
+{
+	Interpreter->AbortDueToRuntimeError(ErrorMessage);
+}
+
 

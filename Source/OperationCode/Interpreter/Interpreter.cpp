@@ -147,4 +147,10 @@ void UInterpreter::AbortCodeExecution()
 	Clear();
 }
 
+void UInterpreter::AbortDueToRuntimeError(FString ErrorMessage)
+{
+	AbortCodeExecution();
+	OnRuntimeError.Broadcast(ErrorMessage);
+}
+
 

@@ -118,7 +118,8 @@ public:
 
 	TArray<FStackFrame> GetStack() const { return Stack; }
 
-
+	UFUNCTION(BlueprintCallable)
+	void RuntimeError(FString ErrorMessage);
 
 
 

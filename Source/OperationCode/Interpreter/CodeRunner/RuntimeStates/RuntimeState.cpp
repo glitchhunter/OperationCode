@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "RuntimeState.h"
+#include "Interpreter/Parser/AST/AST_Node.h"
 
 
 UWorld* URuntimeState::GetWorld() const
@@ -40,4 +41,9 @@ void URuntimeState::AddScope()
 void URuntimeState::AddDebugMessage(FString Message)
 {
 	GetCodeRunner()->AddDebugMessage(Message);
+}
+
+void URuntimeState::ThrowRuntimeError(FString ErrorMessage)
+{
+	GetCodeRunner()->RuntimeError(ErrorMessage);
 }

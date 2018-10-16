@@ -75,6 +75,8 @@ class OPERATIONCODE_API UInterpreter : public UObject
 	GENERATED_BODY()
 
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOutputDelegate, FString, Message);
+
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FRuntimeErrorDelegate, FString, Message);
 	
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCodeCompleted);
 
@@ -120,6 +122,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AbortCodeExecution();
 
+	UFUNCTION(BlueprintCallable)
+	void AbortDueToRuntimeError(FString ErrorMessage);
+
 
 
 
@@ -133,6 +138,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FOutputDelegate OnRuntimeMessageSent;
+
+	UPROPERTY(BlueprintAssignable)
+	FOutputDelegate OnRuntimeError;
 
 	UPROPERTY(BlueprintAssignable)
 	FOutputDelegate OnRuntimeLogSent;

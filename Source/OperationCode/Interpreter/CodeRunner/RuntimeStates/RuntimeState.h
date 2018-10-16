@@ -45,6 +45,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AddDebugMessage(FString Message);
 
+	UFUNCTION(BlueprintCallable)
+	void ThrowRuntimeError(FString ErrorMessage);
+
 private:
 
 	UPROPERTY()

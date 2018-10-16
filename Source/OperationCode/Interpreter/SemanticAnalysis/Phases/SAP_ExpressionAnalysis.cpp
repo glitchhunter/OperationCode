@@ -758,6 +758,7 @@ void USAP_ExpressionAnalysis::Analyse(UAST_TwoArguments* TwoArguments)
 	FExpressionReturn* lhsReturn = GetSymbolTable()->ExpressionReturns.Find(TwoArguments->lhs);
 	if (!lhsReturn) return;
 	if (lhsReturn->ReturnsType()) ThrowError("Cannot take a type as an argument.");
+	if (lhsReturn->ReturnType == "void") ThrowError("Cannot call functions on void. Try separating code with a ;");
 	UAST_ClassDefinition** lhsClass = GetSymbolTable()->ClassNames.Find(lhsReturn->ReturnType);
 	if (!lhsClass) return;
 
@@ -767,6 +768,7 @@ void USAP_ExpressionAnalysis::Analyse(UAST_TwoArguments* TwoArguments)
 	FExpressionReturn* rhsReturn = GetSymbolTable()->ExpressionReturns.Find(TwoArguments->rhs);
 	if (!rhsReturn) return;
 	if (rhsReturn->ReturnsType()) ThrowError("Cannot take a type as an argument.");
+	if (rhsReturn->ReturnType == "void") ThrowError("Cannot call functions on void. Try separating code with a ;");
 	UAST_ClassDefinition** rhsClass = GetSymbolTable()->ClassNames.Find(rhsReturn->ReturnType);
 	if (!rhsClass) return;
 
@@ -814,6 +816,7 @@ void USAP_ExpressionAnalysis::Analyse(UAST_OneArgument* OneArgument)
 	FExpressionReturn* ArgReturn = GetSymbolTable()->ExpressionReturns.Find(OneArgument->Argument);
 	if (!ArgReturn) return;
 	if (ArgReturn->ReturnsType()) ThrowError("Cannot take a type as an argument.");
+	if (ArgReturn->ReturnType == "void") ThrowError("Cannot call functions on void. Try separating code with a ;");
 	UAST_ClassDefinition** ArgClass = GetSymbolTable()->ClassNames.Find(ArgReturn->ReturnType);
 	if (!ArgClass) return;
 

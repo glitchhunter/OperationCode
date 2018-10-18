@@ -1,13 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Bool_Not_Bool.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
 
 
 UBool_Not_Bool::UBool_Not_Bool()
 {
 	FunctionData.FunctionName = "operator !";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "bool";

@@ -7,7 +7,7 @@ UInt_OperatorDivide_IntInt::UInt_OperatorDivide_IntInt()
 {
 	FunctionData.FunctionName = "operator /";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "int";

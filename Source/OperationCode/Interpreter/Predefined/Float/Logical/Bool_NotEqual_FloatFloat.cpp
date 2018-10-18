@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Bool_NotEqual_FloatFloat.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
 
 UBool_NotEqual_FloatFloat::UBool_NotEqual_FloatFloat()
 {
 	FunctionData.FunctionName = "operator !=";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "bool";

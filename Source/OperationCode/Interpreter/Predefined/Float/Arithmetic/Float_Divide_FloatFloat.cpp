@@ -8,7 +8,7 @@ UFloat_Divide_FloatFloat::UFloat_Divide_FloatFloat()
 {
 	FunctionData.FunctionName = "operator /";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "float";

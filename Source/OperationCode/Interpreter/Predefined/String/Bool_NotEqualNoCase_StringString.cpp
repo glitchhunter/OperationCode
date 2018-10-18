@@ -1,12 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Bool_NotEqualNoCase_StringString.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/StringInstance.h"
 
 UBool_NotEqualNoCase_StringString::UBool_NotEqualNoCase_StringString()
 {
 	FunctionData.FunctionName = "NotEqualIgnoreCase";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "bool";

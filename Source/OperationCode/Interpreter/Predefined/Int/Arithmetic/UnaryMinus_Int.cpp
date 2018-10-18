@@ -7,7 +7,7 @@ UUnaryMinus_Int::UUnaryMinus_Int()
 {
 	FunctionData.FunctionName = "operator -";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "int";

@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Float_ConvertAuto_Bool.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/FloatInstance.h"
 
 UFloat_ConvertAuto_Bool::UFloat_ConvertAuto_Bool()
 {
 	FunctionData.FunctionName = "convert auto float";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "float";

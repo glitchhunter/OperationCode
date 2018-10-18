@@ -12,6 +12,7 @@
 #include "Phases/SAP_StaticAnalysis.h"
 #include "Phases/SAP_FlowControlAnalysis.h"
 #include "Phases/SAP_ReturnAnalysis.h"
+#include "Phases/SAP_Final.h"
 
 
 
@@ -26,6 +27,7 @@ USemanticAnalysis::USemanticAnalysis()
 	PhaseClasses.Add(USAP_StaticAnalysis::StaticClass());
 	PhaseClasses.Add(USAP_FlowControlAnalysis::StaticClass());
 	PhaseClasses.Add(USAP_ReturnAnalysis::StaticClass());
+	PhaseClasses.Add(USAP_Final::StaticClass());
 }
 
 void USemanticAnalysis::Clear()

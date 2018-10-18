@@ -3,6 +3,9 @@
 #pragma once
 
 #include "Interpreter/InterpreterComponent.h"
+#include "Interpreter/Lexer/Tokens/Operators/T_Operator.h"
+#include "Interpreter/Parser/AST/Expressions/Operators/OneArgument/AST_OneArgument.h"
+#include "Interpreter/Parser/AST/Expressions/Operators/TwoArguments/AST_TwoArguments.h"
 #include "Parser.generated.h"
 
 class UToken;

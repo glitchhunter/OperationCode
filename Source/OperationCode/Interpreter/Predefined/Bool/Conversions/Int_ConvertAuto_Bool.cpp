@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Int_ConvertAuto_Bool.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/IntInstance.h"
 
 UInt_ConvertAuto_Bool::UInt_ConvertAuto_Bool()
 {
 	FunctionData.FunctionName = "convert auto int";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "int";

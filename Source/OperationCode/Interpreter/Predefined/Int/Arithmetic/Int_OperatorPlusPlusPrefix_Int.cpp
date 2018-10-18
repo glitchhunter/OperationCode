@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Int_OperatorPlusPlusPrefix_Int.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/IntInstance.h"
 
 UInt_OperatorPlusPlusPrefix_Int::UInt_OperatorPlusPlusPrefix_Int()
 {
 	FunctionData.FunctionName = "operator ++ (prefix)";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = true;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "int";

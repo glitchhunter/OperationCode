@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "String_ConvertAuto_Float.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/StringInstance.h"
 
 UString_ConvertAuto_Float::UString_ConvertAuto_Float()
 {
 	FunctionData.FunctionName = "convert auto string";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "string";

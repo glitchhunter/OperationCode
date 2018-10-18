@@ -26,6 +26,7 @@
 #include "Tokens/Keywords/T_Convert.h"
 #include "Tokens/Keywords/T_Auto.h"
 #include "Tokens/Keywords/T_Constructor.h"
+#include "Tokens/Keywords/T_Final.h"
 
 #include "Tokens/Literals/T_BoolLiteral.h"
 #include "Tokens/Literals/T_FloatLiteral.h"
@@ -90,6 +91,7 @@ ULexer::ULexer()
 	LexData.Add(FLexData("constructor", UT_Constructor::StaticClass(), false));
 	LexData.Add(FLexData("const", UT_Const::StaticClass(), false));
 	LexData.Add(FLexData("nullptr", UT_Nullptr::StaticClass(), false));
+	LexData.Add(FLexData("final", UT_Final::StaticClass(), false));
 
 	LexData.Add(FLexData("}", UT_ClosedCurlyBracket::StaticClass(), true));
 	LexData.Add(FLexData("{", UT_OpenCurlyBracket::StaticClass(), true));

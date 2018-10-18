@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Int_OperatorPlus_IntInt.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/IntInstance.h"
 
 UInt_OperatorPlus_IntInt::UInt_OperatorPlus_IntInt()
 {
 	FunctionData.FunctionName = "operator +";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "int";

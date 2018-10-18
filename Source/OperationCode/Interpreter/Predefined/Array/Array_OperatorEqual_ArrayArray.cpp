@@ -8,7 +8,7 @@ UArray_OperatorEqual_ArrayArray::UArray_OperatorEqual_ArrayArray()
 {
 	FunctionData.FunctionName = "operator =";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnsArray = true;

@@ -26,6 +26,8 @@
 #include "Interpreter/Lexer/Tokens/Keywords/T_Convert.h"
 #include "Interpreter/Lexer/Tokens/Keywords/T_Auto.h"
 #include "Interpreter/Lexer/Tokens/Keywords/T_Constructor.h"
+#include "Interpreter/Lexer/Tokens/Keywords/T_Final.h"
+#include "Interpreter/Lexer/Tokens/Keywords/T_Array.h"
 
 #include "Interpreter/Lexer/Tokens/Literals/T_BoolLiteral.h"
 #include "Interpreter/Lexer/Tokens/Literals/T_IntLiteral.h"
@@ -514,6 +516,9 @@ UAST_FunctionDefinition* UParser::ParseFunctionDefinition(int32& Index)
 
 	// Optional const function
 	data.IsConst = IsTokenOfClass(CurrentIndex, UT_Const::StaticClass());
+
+	// Optional final
+	data.IsFinal = IsTokenOfClass(CurrentIndex, UT_Final::StaticClass());
 
 	// Construct function definition;
 	UAST_FunctionDefinition* FunctionDefinition = NewObject<UAST_FunctionDefinition>(GetInterpreter());

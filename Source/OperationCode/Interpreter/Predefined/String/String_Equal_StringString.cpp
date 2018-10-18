@@ -1,12 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "String_Equal_StringString.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/StringInstance.h"
 
 UString_Equal_StringString::UString_Equal_StringString()
 {
 	FunctionData.FunctionName = "operator =";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "string";

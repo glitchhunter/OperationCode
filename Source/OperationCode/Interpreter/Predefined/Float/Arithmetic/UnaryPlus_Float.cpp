@@ -9,7 +9,7 @@ UUnaryPlus_Float::UUnaryPlus_Float()
 {
 	FunctionData.FunctionName = "operator +";
 	FunctionData.IsConst = true;
-	FunctionData.IsFinal = false;
+	FunctionData.IsFinal = true;
 	FunctionData.IsReturnPassByReference = false;
 	FunctionData.IsStatic = true;
 	FunctionData.ReturnType = "float";

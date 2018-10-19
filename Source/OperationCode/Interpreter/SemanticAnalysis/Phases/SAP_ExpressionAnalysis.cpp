@@ -775,7 +775,7 @@ void USAP_ExpressionAnalysis::Analyse(UAST_TwoArguments* TwoArguments)
 	// Find in which class (if any) this overload is defined in
 	TArray<FParamSignature> paramSig;
 	paramSig.Add(FParamSignature(lhsReturn->ReturnType, lhsReturn->ReturnsArray()));
-	paramSig.Add(FParamSignature(rhsReturn->ReturnType, lhsReturn->ReturnsArray()));
+	paramSig.Add(FParamSignature(rhsReturn->ReturnType, rhsReturn->ReturnsArray()));
 
 	// Try to find in lhs type class
 	UAST_FunctionDefinition* lhsFound = GetSymbolTable()->GetOverloadedOperator(FFunctionSignature(name, paramSig));

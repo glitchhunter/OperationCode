@@ -92,5 +92,8 @@ private:
 	FString CurrentVarName;
 	bool CallerIsThis;
 	UAST_ClassDefinition* OwningClasss;
+
+	FString secondaryOwner;
+	FString ElementType;
 	
 };

@@ -110,11 +110,28 @@ void USAP_Const::Analyse(UAST_While* While)
 
 void USAP_Const::Analyse(UAST_FunctionCall* FunctionCall)
 {
-	// Get function definition (This may not work for arrays?)
-	UAST_FunctionDefinition* thisDefinition = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, OwningClasss, "", true)[0];
+	UAST_ClassDefinition* own; 
+	UAST_FunctionDefinition* thisDefinition;
+	if (CallerIsThis)
+	{
+		own = OwningClasss;
+
+		TArray<UAST_FunctionDefinition*> FunDefs = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true);
+		if (FunDefs.Num() == 0)
+		{
+			own = GetSymbolTable()->ClassNames[GetSymbolTable()->TopOwner->Type]; 
+			thisDefinition = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true)[0];
+		}
+		else thisDefinition = FunDefs[0];
+	}
+	else
+	{
+		own = GetSymbolTable()->ClassNames[secondaryOwner];
+		thisDefinition = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true)[0];
+	}
 
 	// If this is the caller, then the function must be const
-	if (CallerIsThis && OwningClasss && CurrentFunction->FunctionData.IsConst && !thisDefinition->FunctionData.IsConst)
+	if (own && CurrentFunction->FunctionData.IsConst && !thisDefinition->FunctionData.IsConst)
 	{
 		ThrowError("Calling a non-const function \"" + thisDefinition->FunctionData.FunctionName + "\" inside a const function \""
 			+ CurrentFunction->FunctionData.FunctionName + "\".");
@@ -129,7 +146,7 @@ void USAP_Const::Analyse(UAST_FunctionCall* FunctionCall)
 		if (CurrentVarName == "") continue;
 
 		// Throw error if we pass a const variable by reference, while not marked as const
-		if (thisDefinition->FunctionData.ParameterData[i].IsPassByReference && thisDefinition->FunctionData.ParameterData[i].IsConst)
+		if (thisDefinition->FunctionData.ParameterData[i].IsPassByReference && !thisDefinition->FunctionData.ParameterData[i].IsConst)
 		{
 			ThrowError("Attempting to pass a const variable " + CurrentVarName + " as a non const pass by reference argument in function \""
 				+ thisDefinition->FunctionData.FunctionName + "\".");
@@ -256,12 +273,30 @@ void USAP_Const::Analyse(UAST_MemberAccess* MemberAccess)
 	MemberAccess->lhs->Analyse(this);
 	CallerIsThis = false;
 
+	FExpressionReturn expRet = GetSymbolTable()->ExpressionReturns[MemberAccess->lhs];
+	if (expRet.ReturnsArray())
+	{
+		secondaryOwner = "array";
+		ElementType = expRet.ReturnType;
+	}
+	else
+	{
+		secondaryOwner = expRet.ReturnType;
+		ElementType = "";
+	}
+
 	// If member we are accessing is not a variable we are interested in, skip it
-	if (CurrentVarName == "") return;
+	if (CurrentVarName == "")
+	{
+		CallerIsThis = true;
+		return;
+	}
 
 	// Analyse rhs
 	MemberAccess->rhs->Analyse(this);
 	CallerIsThis = true;
+	secondaryOwner = "";
+	ElementType = "";
 
 	// We are done with this variable
 	CurrentVarName = "";

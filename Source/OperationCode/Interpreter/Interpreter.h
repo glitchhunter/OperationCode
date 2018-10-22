@@ -48,6 +48,15 @@ struct FCompileData
 {
 	GENERATED_BODY()
 
+	FCompileData()
+	{
+		// For some reasons these were not defaulted to nullptr,
+		// but instead ponted to random garbage memory,
+		// which in turn cause a pretty nasty garbage collection bug.
+		AST = nullptr;
+		SymbolTable = nullptr;
+	}
+
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<UToken*> Tokens;

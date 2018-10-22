@@ -178,6 +178,9 @@ UToken* ULexer::Lex(int32& StartIndex)
 
 	if (LexIdentifier(StartIndex, StartIndex, Token)) return Token;
 
+	if (SourceText.IsValidIndex(StartIndex))
+		ThrowError("Unknown token " + FString::Chr(SourceText[StartIndex]) + " detected.");
+	else ThrowError("Error");
 	return nullptr;
 }
 
@@ -372,7 +375,8 @@ TArray<UToken*> ULexer::Tokenize(const FString Source)
 		}
 		else
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Not all tokens processed, last token index is %d"), index);
+			// UE_LOG(LogTemp, Warning, TEXT("Not all tokens processed, last token index is %d"), index);
+			ThrowError("Not all tokens processed, unprocessed token index is " + FString::FromInt(index));
 			return result;
 		}
 	}

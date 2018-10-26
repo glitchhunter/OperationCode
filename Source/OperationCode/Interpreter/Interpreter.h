@@ -11,6 +11,7 @@ class UToken;
 class UAST_Node;
 class USymbolTable;
 class UAST_Basic;
+class USemanticLimitation;
 
 
 UENUM(BlueprintType)
@@ -99,7 +100,7 @@ public:
 	void Clear();
 
 	UFUNCTION(BlueprintCallable)
-	FCompileData Compile(FString SourceCode, UAST_Basic* Root, UValue* TopOwner);
+	FCompileData Compile(FString SourceCode, UAST_Basic* Root, UValue* TopOwner, TArray<USemanticLimitation*> limitations);
 
 	UFUNCTION(BlueprintCallable)
 	TArray<UToken*> Lex(FString SourceCode);
@@ -108,7 +109,7 @@ public:
 	TArray<UAST_Node*> Parse(TArray<UToken*> Tokens);
 
 	UFUNCTION(BlueprintCallable)
-	USymbolTable* Analyse(UAST_Node* RootNode, UValue* TopOwner);
+	USymbolTable* Analyse(UAST_Node* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations);
 
 	UFUNCTION(BlueprintCallable)
 	void RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun, int32 MaxSetps);

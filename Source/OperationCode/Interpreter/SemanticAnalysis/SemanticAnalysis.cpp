@@ -16,6 +16,8 @@
 #include "Phases/SAP_Const.h"
 #include "Phases/SAP_Literal.h"
 
+#include "Phases/Limitations/SemanticLimitation.h"
+
 
 
 USemanticAnalysis::USemanticAnalysis()
@@ -58,7 +60,15 @@ USymbolTable* USemanticAnalysis::AnalyseAST(UAST_Node* Root, UValue* TopOwner)
 	for (USemanticAnalysisPhase* currentPhase : Phases)
 	{
 		currentPhase->StartAnalysis(Root);
-		if (HasErrors()) break;
+		if (HasErrors()) return MainSymbolTable;
+	}
+
+	// Iterate through limitation
+	for (USemanticLimitation* currentLimitation : Limitations)
+	{
+		currentLimitation->Init(this);
+		currentLimitation->StartAnalysis(Root);
+		if (HasErrors()) return MainSymbolTable;
 	}
 
 	return MainSymbolTable;

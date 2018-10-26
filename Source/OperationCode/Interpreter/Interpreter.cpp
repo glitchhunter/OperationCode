@@ -28,7 +28,7 @@ void UInterpreter::Clear()
 	CurrentState = EInterpreterState::Idle;
 }
 
-FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UValue* TopOwner)
+FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations)
 {
 	FCompileData CompileData;
 	if (CurrentState != EInterpreterState::Idle)
@@ -64,7 +64,7 @@ FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UVa
 	}
 
 	CompileData.AST = RootNode;
-	USymbolTable* symbolTable = Analyse(RootNode, TopOwner);
+	USymbolTable* symbolTable = Analyse(RootNode, TopOwner, limitations);
 	CompileData.SymbolTable = symbolTable;
 	if (HasErrors())
 	{
@@ -98,12 +98,13 @@ TArray<UAST_Node*> UInterpreter::Parse(TArray<UToken*> Tokens)
 	return Parser->ParseTokens(Tokens);
 }
 
-USymbolTable* UInterpreter::Analyse(UAST_Node* RootNode, UValue* TopOwner)
+USymbolTable* UInterpreter::Analyse(UAST_Node* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations)
 {
 	if (CurrentState != EInterpreterState::ParsingCompleted) return nullptr;
 
 	USemanticAnalysis* SemAnalysis = NewObject<USemanticAnalysis>(this);
 	SemAnalysis->Init(this);
+	SemAnalysis->Limitations = limitations;
 
 	CurrentState = EInterpreterState::AnalysisCompleted;
 	return SemAnalysis->AnalyseAST(RootNode, TopOwner);

@@ -8,6 +8,7 @@
 
 class USymbolTable;
 class USemanticAnalysisPhase;
+class USemanticLimitation;
 
 /**
  * 
@@ -28,6 +29,9 @@ public:
 	USymbolTable* GetMainSymbolTable() const { return MainSymbolTable; }
 
 	virtual void Clear() override;
+
+	UPROPERTY(visibleAnywhere)
+	TArray<USemanticLimitation*> Limitations;
 
 
 protected:

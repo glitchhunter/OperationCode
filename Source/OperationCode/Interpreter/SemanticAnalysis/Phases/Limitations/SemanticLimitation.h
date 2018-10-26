@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(Abstract, BlueprintType)
+UCLASS(Abstract, BlueprintType, EditInlineNew)
 class OPERATIONCODE_API USemanticLimitation : public USemanticAnalysisPhase
 {
 	GENERATED_BODY()

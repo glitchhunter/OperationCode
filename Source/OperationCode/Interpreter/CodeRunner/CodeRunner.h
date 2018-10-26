@@ -121,7 +121,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void RuntimeError(FString ErrorMessage);
 
-
+	UFUNCTION(BlueprintPure)
+	ECodeState GetCurrentCodeState() const { return CurrentCodeState; }
 
 
 

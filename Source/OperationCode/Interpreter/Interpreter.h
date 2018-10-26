@@ -84,9 +84,9 @@ class OPERATIONCODE_API UInterpreter : public UObject
 {
 	GENERATED_BODY()
 
-	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOutputDelegate, FString, Message);
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOutputDelegate, const FString&, Message);
 
-	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FRuntimeErrorDelegate, FString, Message);
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FRuntimeErrorDelegate, const FString&, Message);
 	
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCodeCompleted);
 

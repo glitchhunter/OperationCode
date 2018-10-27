@@ -72,3 +72,81 @@ UAST_Basic* ACodePlayerControllerBase::GetPrecompiledData_Implementation()
 	return basic;
 }
 
+void ACodePlayerControllerBase::AddClass_Implementation(UAST_ClassDefinition* ClassDefinition)
+{
+	if (!ClassDefinition) return;
+
+	if (IsClassAlreadyDefined(ClassDefinition->Name))
+	{
+		// Class is already added, just increase the counter
+		ClassCounter[ClassDefinition->Name]++;
+		return;
+	}
+
+	// Add new class
+	ExtraClasses.Add(ClassDefinition);
+	ClassCounter.Add(ClassDefinition->Name, 1);
+}
+
+void ACodePlayerControllerBase::RemoveClass_Implementation(const FString& ClassName)
+{
+	if (!ClassCounter.Contains(ClassName)) return;
+
+	// remove class from list
+	for (int i = 0; i < ExtraClasses.Num(); ++i)
+	{
+		if (ExtraClasses[i]->Name == ClassName)
+		{
+			ExtraClasses.RemoveAt(i);
+			break;
+		}
+	}
+
+	// Decrease counter
+	if (ClassCounter[ClassName] <= 1)
+		ClassCounter.Remove(ClassName);
+	else ClassCounter[ClassName]--;
+}
+
+bool ACodePlayerControllerBase::IsClassAlreadyDefined(const FString& ClassName)
+{
+	return ClassCounter.Contains(ClassName);
+}
+
+void ACodePlayerControllerBase::AddFunction_Implementation(UAST_FunctionDefinition* FunctionDefinition)
+{
+	if (!FunctionDefinition) return;
+
+	if (FunctionCounter.Contains(FunctionDefinition->FunctionData.GetSignature()))
+	{
+		// Function is already added, just increase the counter
+		FunctionCounter[FunctionDefinition->FunctionData.GetSignature()]++;
+		return;
+	}
+
+	// Add new function
+	ExtraFunctions.Add(FunctionDefinition);
+	FunctionCounter.Add(FunctionDefinition->FunctionData.GetSignature(), 1);
+}
+
+void ACodePlayerControllerBase::RemoveFunction_Implementation(const FFunctionSignature& FunctionSig)
+{
+	if (!FunctionCounter.Contains(FunctionSig)) return;
+
+	// remove function from list
+	for (int i = 0; i < ExtraFunctions.Num(); ++i)
+	{
+		if (ExtraFunctions[i]->FunctionData.GetSignature() == FunctionSig)
+		{
+			ExtraFunctions.RemoveAt(i);
+			break;
+		}
+	}
+
+	// Decrease counter
+	if (FunctionCounter[FunctionSig] <= 1)
+		FunctionCounter.Remove(FunctionSig);
+	else FunctionCounter[FunctionSig]--;
+}
+
+

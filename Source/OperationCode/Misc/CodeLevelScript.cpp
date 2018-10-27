@@ -16,7 +16,7 @@ void ACodeLevelScript::BeginPlay()
 	
 	for (TSubclassOf<UAST_ClassDefinition> current : PredefinedClasses)
 	{
-		CodePC->ExtraClasses.Add(NewObject<UAST_ClassDefinition>(CodePC, current));
+		CodePC->AddClass(NewObject<UAST_ClassDefinition>(CodePC, current));
 	}
 
 	for (TSubclassOf<UAST_FunctionDefinition> current : PredefinedFunctions)

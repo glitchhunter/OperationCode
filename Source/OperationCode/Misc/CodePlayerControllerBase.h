@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "Interpreter/Interpreter.h"
+#include "Interpreter/FunctionData.h"
 #include "CodePlayerControllerBase.generated.h"
 
 class USemanticLimitation;
@@ -14,6 +15,7 @@ class UAST_Basic;
 class UAST_ClassDefinition;
 class UAST_FunctionDefinition;
 struct FCompileData;
+struct FFunctionSignature;
 
 /**
  * 
@@ -70,6 +72,21 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Code")
 		void OnRuntimeError(const FString& Message);
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
+		void AddClass(UAST_ClassDefinition* ClassDefinition);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
+		void RemoveClass(const FString& ClassName);
+
+	UFUNCTION(BlueprintPure, Category = "Code")
+		bool IsClassAlreadyDefined(const FString& ClassName);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
+		void AddFunction(UAST_FunctionDefinition* FunctionDefinition);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
+		void RemoveFunction(const FFunctionSignature& FunctionSig);
+
 
 
 
@@ -94,6 +111,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<UAST_Basic> BasicType;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		TMap<FString, int32> ClassCounter;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		TMap<FFunctionSignature, int32> FunctionCounter;
 	
 	
 };

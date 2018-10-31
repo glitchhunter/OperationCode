@@ -14,7 +14,7 @@ class UAST_FunctionDefinition;
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class OPERATIONCODE_API ACodeLevelScript : public ALevelScriptActor
 {
 	GENERATED_BODY()

@@ -89,8 +89,6 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
 		void RemoveFunction(const FFunctionSignature& FunctionSig);
 
-	UFUNCTION(BlueprintPure)
-		FString GetLevelText() const;
 
 
 
@@ -123,7 +121,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		TMap<FFunctionSignature, int32> FunctionCounter;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		ACodeLevelScript* LevelScript;
 	
 	

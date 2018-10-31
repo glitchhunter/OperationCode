@@ -150,11 +150,4 @@ void ACodePlayerControllerBase::RemoveFunction_Implementation(const FFunctionSig
 	else FunctionCounter[FunctionSig]--;
 }
 
-FString ACodePlayerControllerBase::GetLevelText() const
-{
-	if (!LevelScript) return "";
-
-	return LevelScript->GetLevelText();
-}
-
 

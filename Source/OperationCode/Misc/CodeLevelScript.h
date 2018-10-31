@@ -23,6 +23,9 @@ public:
 
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintPure, BlueprintNativeEvent)
+	FString GetLevelText() const;
+
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Instanced)
@@ -36,6 +39,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<UAST_FunctionDefinition>> PredefinedFunctions;
+
+protected:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MultiLine = "true"))
+	FString LevelText;
 	
 	
 };

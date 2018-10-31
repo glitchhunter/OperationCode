@@ -6,6 +6,7 @@
 #include "Interpreter/Parser/AST/AST_Basic.h"
 #include "Interpreter/SemanticAnalysis/Phases/Limitations/SemanticLimitation.h"
 #include "Interpreter/CodeRunner/Values/Value.h"
+#include "Misc/CodeLevelScript.h"
 
 
 
@@ -147,6 +148,13 @@ void ACodePlayerControllerBase::RemoveFunction_Implementation(const FFunctionSig
 	if (FunctionCounter[FunctionSig] <= 1)
 		FunctionCounter.Remove(FunctionSig);
 	else FunctionCounter[FunctionSig]--;
+}
+
+FString ACodePlayerControllerBase::GetLevelText() const
+{
+	if (!LevelScript) return "";
+
+	return LevelScript->GetLevelText();
 }
 
 

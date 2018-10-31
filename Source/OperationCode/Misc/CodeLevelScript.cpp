@@ -13,6 +13,7 @@ void ACodeLevelScript::BeginPlay()
 	CodePC = Cast<ACodePlayerControllerBase>(cont);
 
 	CodePC->Limitations = Limitations;
+	CodePC->LevelScript = this;
 	
 	for (TSubclassOf<UAST_ClassDefinition> current : PredefinedClasses)
 	{
@@ -25,5 +26,11 @@ void ACodeLevelScript::BeginPlay()
 	}
 
 	Super::BeginPlay();
+}
+
+
+FString ACodeLevelScript::GetLevelText_Implementation() const
+{
+	return LevelText;
 }
 

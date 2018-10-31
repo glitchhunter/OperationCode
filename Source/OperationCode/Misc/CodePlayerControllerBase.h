@@ -17,6 +17,8 @@ class UAST_FunctionDefinition;
 struct FCompileData;
 struct FFunctionSignature;
 
+class ACodeLevelScript;
+
 /**
  * 
  */
@@ -87,6 +89,9 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
 		void RemoveFunction(const FFunctionSignature& FunctionSig);
 
+	UFUNCTION(BlueprintPure)
+		FString GetLevelText() const;
+
 
 
 
@@ -117,6 +122,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		TMap<FFunctionSignature, int32> FunctionCounter;
+
+	UPROPERTY()
+		ACodeLevelScript* LevelScript;
 	
 	
 };

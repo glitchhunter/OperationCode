@@ -26,9 +26,7 @@ public:
 	UFUNCTION(BlueprintPure, BlueprintNativeEvent)
 	FString GetLevelText() const;
 
-
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Instanced)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
 	TArray<USemanticLimitation*> Limitations;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)

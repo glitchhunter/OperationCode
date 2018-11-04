@@ -28,13 +28,14 @@ void UInterpreter::Clear()
 	CurrentState = EInterpreterState::Idle;
 }
 
-FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations)
+FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UValue* TopOwner)
 {
 	FCompileData CompileData;
 	if (CurrentState != EInterpreterState::Idle)
 	{
 		CompileData.Errors.Messeges.Add("Cannot compile at this time.");
 		CompileData.Errors.Phase = CurrentState;
+		OnCompiled.Broadcast(CompileData);
 		return CompileData;
 	}
 
@@ -44,6 +45,7 @@ FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UVa
 	{
 		CompileData.Errors.Messeges = GetErrors();
 		CompileData.Errors.Phase = CurrentState;
+		OnCompiled.Broadcast(CompileData);
 		return CompileData;
 	}
 
@@ -52,6 +54,7 @@ FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UVa
 	{
 		CompileData.Errors.Messeges = GetErrors();
 		CompileData.Errors.Phase = CurrentState;
+		OnCompiled.Broadcast(CompileData);
 		return CompileData;
 	}
 
@@ -64,16 +67,18 @@ FCompileData UInterpreter::Compile(FString SourceCode, UAST_Basic* RootNode, UVa
 	}
 
 	CompileData.AST = RootNode;
-	USymbolTable* symbolTable = Analyse(RootNode, TopOwner, limitations);
+	USymbolTable* symbolTable = Analyse(RootNode, TopOwner);
 	CompileData.SymbolTable = symbolTable;
 	if (HasErrors())
 	{
 		CompileData.Errors.Messeges = GetErrors();
 		CompileData.Errors.Phase = CurrentState;
+		OnCompiled.Broadcast(CompileData);
 		return CompileData;
 	}
 
 	CompileData.Warnings = Warnings;
+	OnCompiled.Broadcast(CompileData);
 	return CompileData;
 }
 
@@ -98,13 +103,13 @@ TArray<UAST_Node*> UInterpreter::Parse(TArray<UToken*> Tokens)
 	return Parser->ParseTokens(Tokens);
 }
 
-USymbolTable* UInterpreter::Analyse(UAST_Node* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations)
+USymbolTable* UInterpreter::Analyse(UAST_Node* RootNode, UValue* TopOwner)
 {
 	if (CurrentState != EInterpreterState::ParsingCompleted) return nullptr;
 
 	USemanticAnalysis* SemAnalysis = NewObject<USemanticAnalysis>(this);
 	SemAnalysis->Init(this);
-	SemAnalysis->Limitations = limitations;
+	SemAnalysis->Limitations = Limitations;
 
 	CurrentState = EInterpreterState::AnalysisCompleted;
 	return SemAnalysis->AnalyseAST(RootNode, TopOwner);

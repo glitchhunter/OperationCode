@@ -29,6 +29,8 @@ class OPERATIONCODE_API ACodePlayerControllerBase : public APlayerController
 	
 public:
 
+	ACodePlayerControllerBase();
+
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
@@ -99,9 +101,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FCompileData CompileData;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<USemanticLimitation*> Limitations;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		int32 MaxSteps = 500;

@@ -9,10 +9,14 @@
 #include "Misc/CodeLevelScript.h"
 
 
+ACodePlayerControllerBase::ACodePlayerControllerBase()
+{
+	Interpreter = CreateDefaultSubobject<UInterpreter>(TEXT("Interpreter"));
+}
+
 
 void ACodePlayerControllerBase::BeginPlay()
 {
-	Interpreter = NewObject<UInterpreter>(this);
 	Interpreter->OnRuntimeMessageSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeMessageSent);
 	Interpreter->OnRuntimeLogSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeLogSent);
 	Interpreter->OnStaticInitCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnStaticinitCompleted);
@@ -28,7 +32,7 @@ bool ACodePlayerControllerBase::Compile_Implementation(const FString& SourceCode
 	if (!CanCompile()) return false;
 
 	Clear();
-	CompileData = Interpreter->Compile(SourceCode, GetPrecompiledData(), GetTopOwner(), Limitations);
+	CompileData = Interpreter->Compile(SourceCode, GetPrecompiledData(), GetTopOwner());
 	return Interpreter->IsCompileValid(CompileData);
 }
 

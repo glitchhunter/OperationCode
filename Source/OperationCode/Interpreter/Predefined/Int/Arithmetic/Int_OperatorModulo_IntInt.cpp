@@ -19,6 +19,14 @@ UValue* UInt_OperatorModulo_IntInt::Run_Implementation(USimpleFunctionDefinition
 {
 	int32 lhs = RTS->GetIntValue("lhs");
 	int32 rhs = RTS->GetIntValue("rhs");
+
+	// Check for modulo 0
+	if (rhs == 0)
+	{
+		RTS->ThrowRuntimeError("Cannot modulo by 0");
+		return URTS_InstanceCreator::CreateIntValue(RTS->GetCodeRunner(), 0);
+	}
+
 	int32 result = lhs % rhs;
 
 	RTS->AddDebugMessage("Taking the modulo of lhs value " + FString::FromInt(lhs) + " and rhs value " + FString::FromInt(rhs) + ".");

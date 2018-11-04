@@ -92,6 +92,8 @@ class OPERATIONCODE_API UInterpreter : public UObject
 
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FStaticInitializationCompleted);
 
+	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCompiled, const FCompileData, CompileData);
+
 public:
 
 	virtual UWorld* GetWorld() const override;
@@ -100,7 +102,7 @@ public:
 	void Clear();
 
 	UFUNCTION(BlueprintCallable)
-	FCompileData Compile(FString SourceCode, UAST_Basic* Root, UValue* TopOwner, TArray<USemanticLimitation*> limitations);
+	FCompileData Compile(FString SourceCode, UAST_Basic* Root, UValue* TopOwner);
 
 	UFUNCTION(BlueprintCallable)
 	TArray<UToken*> Lex(FString SourceCode);
@@ -109,7 +111,7 @@ public:
 	TArray<UAST_Node*> Parse(TArray<UToken*> Tokens);
 
 	UFUNCTION(BlueprintCallable)
-	USymbolTable* Analyse(UAST_Node* RootNode, UValue* TopOwner, TArray<USemanticLimitation*> limitations);
+	USymbolTable* Analyse(UAST_Node* RootNode, UValue* TopOwner);
 
 	UFUNCTION(BlueprintCallable)
 	void RunCode(UAST_Node* RootNode, USymbolTable* symbolTable, bool AutoRun, int32 MaxSetps);
@@ -146,6 +148,13 @@ public:
 
 	void CodeCompleted() { Clear(); OnCodeCompleted.Broadcast(); }
 
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<USemanticLimitation*> Limitations;
+
+
+
 	UPROPERTY(BlueprintAssignable)
 	FOutputDelegate OnRuntimeMessageSent;
 
@@ -160,6 +169,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FStaticInitializationCompleted OnStaticInitCompleted;
+
+	UPROPERTY(BlueprintAssignable)
+	FCompiled OnCompiled;
 
 
 

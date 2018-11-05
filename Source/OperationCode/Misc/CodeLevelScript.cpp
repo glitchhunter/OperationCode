@@ -5,33 +5,31 @@
 #include "Misc/CodePlayerControllerBase.h"
 #include "Interpreter/Parser/AST/Definition/AST_ClassDefinition.h"
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
+#include "Misc/LevelDataAsset.h"
 
 
 void ACodeLevelScript::BeginPlay()
 {
 	APlayerController* cont = UGameplayStatics::GetPlayerController(this, 0);
 	CodePC = Cast<ACodePlayerControllerBase>(cont);
-
-	CodePC->Interpreter->Limitations = Limitations;
 	CodePC->LevelScript = this;
-	
-	for (TSubclassOf<UAST_ClassDefinition> current : PredefinedClasses)
-	{
-		CodePC->AddClass(NewObject<UAST_ClassDefinition>(CodePC, current));
-	}
 
-	for (TSubclassOf<UAST_FunctionDefinition> current : PredefinedFunctions)
+	if (LevelData)
 	{
-		CodePC->ExtraFunctions.Add(NewObject<UAST_FunctionDefinition>(CodePC, current));
+		CodePC->Interpreter->Limitations = LevelData->Limitations;
+
+		for (TSubclassOf<UAST_ClassDefinition> current : LevelData->PredefinedClasses)
+		{
+			CodePC->AddClass(NewObject<UAST_ClassDefinition>(CodePC, current));
+		}
+
+		for (TSubclassOf<UAST_FunctionDefinition> current : LevelData->PredefinedFunctions)
+		{
+			CodePC->ExtraFunctions.Add(NewObject<UAST_FunctionDefinition>(CodePC, current));
+		}
 	}
 
 	Super::BeginPlay();
-}
-
-
-FString ACodeLevelScript::GetLevelText_Implementation() const
-{
-	return LevelText;
 }
 
 

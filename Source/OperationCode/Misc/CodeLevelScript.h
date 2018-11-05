@@ -7,9 +7,7 @@
 #include "CodeLevelScript.generated.h"
 
 class ACodePlayerControllerBase;
-class USemanticLimitation;
-class UAST_ClassDefinition;
-class UAST_FunctionDefinition;
+class ULevelDataAsset;
 
 /**
  * 
@@ -23,25 +21,11 @@ public:
 
 	virtual void BeginPlay() override;
 
-	UFUNCTION(BlueprintPure, BlueprintNativeEvent)
-	FString GetLevelText() const;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
-	TArray<USemanticLimitation*> Limitations;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	ACodePlayerControllerBase* CodePC;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TSubclassOf<UAST_ClassDefinition>> PredefinedClasses;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TSubclassOf<UAST_FunctionDefinition>> PredefinedFunctions;
-
-protected:
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MultiLine = "true"))
-	FString LevelText;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	ULevelDataAsset* LevelData;
 	
 	
 };

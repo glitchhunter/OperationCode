@@ -31,7 +31,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<UAST_FunctionDefinition>> PredefinedFunctions;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
 	TArray<USemanticLimitation*> Limitations;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

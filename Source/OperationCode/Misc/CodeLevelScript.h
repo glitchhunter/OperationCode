@@ -8,6 +8,7 @@
 
 class ACodePlayerControllerBase;
 class ULevelDataAsset;
+class ULevelFlowAsset;
 
 /**
  * 
@@ -21,11 +22,17 @@ public:
 
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void ManageLimitations();
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	ACodePlayerControllerBase* CodePC;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	ULevelDataAsset* LevelData;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	ULevelFlowAsset* LevelFlow;
 	
 	
 };

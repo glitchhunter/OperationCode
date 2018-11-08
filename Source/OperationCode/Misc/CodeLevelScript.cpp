@@ -45,11 +45,11 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 			ULevelDataAsset* currentLevel = LevelFlow->Chapters[i].Levels[j];
 			if (!currentLevel) continue;
 
-			// Append limitation
-			CodePC->Interpreter->Limitations.Append(currentLevel->Limitations);
-
 			// If we reached this level, stop. Earlier limitations are removed.
 			if (currentLevel == LevelData) return;
+
+			// Append limitation
+			CodePC->Interpreter->Limitations.Append(currentLevel->Limitations);
 		}
 	}
 }

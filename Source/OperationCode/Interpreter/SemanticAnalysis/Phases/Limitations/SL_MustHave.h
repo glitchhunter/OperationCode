@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Interpreter/SemanticAnalysis/Phases/Limitations/SemanticLimitation.h"
-#include "SL_ForbidAction.generated.h"
+#include "SL_MustHave.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class OPERATIONCODE_API USL_ForbidAction : public USemanticLimitation
+class OPERATIONCODE_API USL_MustHave : public USemanticLimitation
 {
 	GENERATED_BODY()
 
@@ -18,15 +18,16 @@ public:
 
 	virtual void StartAnalysis(UAST_Node* RootNode) override;
 
-	bool RecursiveCheck(UAST_Node* node);
+	void RecursiveCheck(UAST_Node* node);
 
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
-		TSubclassOf<UAST_Node> ActionToForbid;
+		TSubclassOf<UAST_Node> MustHaveAction;
+
+	bool found = false;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"))
-		bool CheckUserInputOnly = true;
+	
 	
 	
 };

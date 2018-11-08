@@ -19,7 +19,10 @@ public:
 	virtual void StartAnalysis(UAST_Node* RootNode) override;
 
 	UFUNCTION(BlueprintImplementableEvent)
-		bool IsCheckValid(UAST_Node* RootNode, FString& ErrorMessage);
+		bool IsCheckValid(UAST_Node* RootNode);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintPure)
+		FString GetErrorMessage() const;
 	
 	
 };

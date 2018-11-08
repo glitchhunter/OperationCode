@@ -32,7 +32,10 @@ public:
 	TArray<TSubclassOf<UAST_FunctionDefinition>> PredefinedFunctions;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
-	TArray<USemanticLimitation*> Limitations;
+	TArray<USemanticLimitation*> Unlocks;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
+	TArray<USemanticLimitation*> LevelSpecificLimitations;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UTeachableDataAsset* TeachableData;

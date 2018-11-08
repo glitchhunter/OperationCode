@@ -6,7 +6,12 @@ void USL_ForbidAction::StartAnalysis(UAST_Node* RootNode)
 {
 	if (!ActionToForbid) return;
 
-	RecursiveCheck(RootNode);
+	if (CheckUserInputOnly)
+	{
+		UAST_Basic* basic = Cast<UAST_Basic>(RootNode);
+		RecursiveCheck(basic->Main);
+	}
+	else RecursiveCheck(RootNode);
 }
 
 bool USL_ForbidAction::RecursiveCheck(UAST_Node* node)

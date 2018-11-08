@@ -36,6 +36,9 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 {
 	if (!LevelData || !LevelFlow) return;
 
+	// First add level specific limitations
+	CodePC->Interpreter->Limitations.Append(LevelData->LevelSpecificLimitations);
+
 	// Iterate through all chapters from end
 	for (int i = LevelFlow->Chapters.Num() - 1; i >= 0; --i)
 	{
@@ -49,7 +52,7 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 			if (currentLevel == LevelData) return;
 
 			// Append limitation
-			CodePC->Interpreter->Limitations.Append(currentLevel->Limitations);
+			CodePC->Interpreter->Limitations.Append(currentLevel->Unlocks);
 		}
 	}
 }

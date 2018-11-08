@@ -4,8 +4,12 @@
 
 void UBlueprintSemanticLimitation::StartAnalysis(UAST_Node* RootNode)
 {
-	FString Message;
-	if (!IsCheckValid(RootNode, Message)) ThrowError(Message);
+	if (!IsCheckValid(RootNode)) ThrowError(GetErrorMessage());
+}
+
+FString UBlueprintSemanticLimitation::GetErrorMessage_Implementation() const
+{
+	return ErrorMessage;
 }
 
 

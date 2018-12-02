@@ -38,6 +38,6 @@ public:
 	TArray<USemanticLimitation*> LevelSpecificLimitations;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UTeachableDataAsset* TeachableData;
+	TArray<UTeachableDataAsset*> TeachableData;
 
 };

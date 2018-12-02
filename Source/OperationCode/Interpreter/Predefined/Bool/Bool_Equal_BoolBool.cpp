@@ -22,6 +22,7 @@ UValue* UBool_Equal_BoolBool::Run_Implementation(USimpleFunctionDefinitionRTS* R
 	bool rhs = RTS->GetBoolValue("rhs");
 	FString boolString = rhs ? "true" : "false";
 	RTS->AddDebugMessage("Storing " + boolString + " in lhs.");
+	lhs->Value = rhs;
 	return lhs;
 }
 

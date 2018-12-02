@@ -43,6 +43,9 @@ public:
 	FString Title;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString Category;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FTeachableSegment> Segment;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

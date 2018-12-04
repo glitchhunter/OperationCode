@@ -112,23 +112,39 @@ void USAP_Const::Analyse(UAST_FunctionCall* FunctionCall)
 {
 	UAST_ClassDefinition* own; 
 	UAST_FunctionDefinition* thisDefinition;
-	if (CallerIsThis)
-	{
-		own = OwningClasss;
 
-		TArray<UAST_FunctionDefinition*> FunDefs = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true);
+	if (CallerIsThis) own = OwningClasss;
+	else own = GetSymbolTable()->ClassNames[secondaryOwner];
+
+
+	// Check member functions
+	TArray<UAST_FunctionDefinition*> FunDefs = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true);
+	if (FunDefs.Num() == 0)
+	{
+		// Check if function belongs in top owner
+		if (GetSymbolTable()->TopOwner)
+		{
+			own = GetSymbolTable()->ClassNames[GetSymbolTable()->TopOwner->Type];
+			FunDefs = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true);
+		}
+
 		if (FunDefs.Num() == 0)
 		{
-			own = GetSymbolTable()->ClassNames[GetSymbolTable()->TopOwner->Type]; 
-			thisDefinition = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true)[0];
+			// check for global static functions
+			own = nullptr;
+			FunDefs = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true);
+
+			if (FunDefs.Num() == 0)
+			{
+				ThrowError("Cannot find matching function named " + FunctionCall->FunctionName + " in const analysis.");
+				return;
+			}
 		}
-		else thisDefinition = FunDefs[0];
 	}
-	else
-	{
-		own = GetSymbolTable()->ClassNames[secondaryOwner];
-		thisDefinition = GetSymbolTable()->GetFunctionDefinitions(FunctionCall, own, ElementType, true)[0];
-	}
+
+	// We found the definition
+	thisDefinition = FunDefs[0];
+
 
 	// If this is the caller, then the function must be const
 	if (own && CurrentFunction->FunctionData.IsConst && !thisDefinition->FunctionData.IsConst)

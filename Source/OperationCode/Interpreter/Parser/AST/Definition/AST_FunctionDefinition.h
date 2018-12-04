@@ -25,6 +25,8 @@ public:
 
 	virtual URuntimeState* CreateRuntimeState(UCodeRunner* CodeRunner) override;
 
+	virtual TArray<UAST_Node*> GetChildren() const override;
+
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
 	FFunctionData FunctionData;

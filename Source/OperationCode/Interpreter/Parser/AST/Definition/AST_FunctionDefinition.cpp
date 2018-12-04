@@ -23,4 +23,13 @@ URuntimeState* UAST_FunctionDefinition::CreateRuntimeState(UCodeRunner* CodeRunn
 	RTS_FunctionDefinition->Init(CodeRunnner);
 	RTS_FunctionDefinition->SetFunctionDefinition(this);
 	return RTS_FunctionDefinition;
+
+}
+
+
+TArray<UAST_Node*> UAST_FunctionDefinition::GetChildren() const
+{
+	TArray<UAST_Node*> result;
+	if (Scope) result.Add(Scope);
+	return result;
 }

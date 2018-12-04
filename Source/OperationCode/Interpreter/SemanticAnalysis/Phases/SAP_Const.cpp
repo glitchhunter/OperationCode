@@ -136,8 +136,22 @@ void USAP_Const::Analyse(UAST_FunctionCall* FunctionCall)
 
 			if (FunDefs.Num() == 0)
 			{
-				ThrowError("Cannot find matching function named " + FunctionCall->FunctionName + " in const analysis.");
-				return;
+				// Another "special" case for constructors
+				TArray<FParamSignature> paramSigs;
+				for (UAST_Expression* exp : FunctionCall->Arguments)
+				{
+					FExpressionReturn expRet = GetSymbolTable()->ExpressionReturns[exp];
+					paramSigs.Add(FParamSignature(expRet.ReturnType, expRet.ReturnsArray()));
+				}
+
+				// what have I done...
+				FunDefs.Add(GetSymbolTable()->GetConstructor(FunctionCall->FunctionName, paramSigs));
+
+				if (FunDefs.Num() == 0)
+				{
+					ThrowError("Cannot find matching function named " + FunctionCall->FunctionName + " in const analysis.");
+					return;
+				}
 			}
 		}
 	}

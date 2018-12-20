@@ -17,6 +17,9 @@ struct FChapterData
 	FString ChapterName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	ULevelDataAsset* Nexus;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<ULevelDataAsset*> Levels;
 };
 

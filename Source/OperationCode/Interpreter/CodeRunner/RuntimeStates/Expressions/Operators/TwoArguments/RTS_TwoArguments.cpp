@@ -3,6 +3,11 @@
 #include "RTS_TwoArguments.h"
 #include "Interpreter/Parser/AST/Expressions/Operators/TwoArguments/AST_TwoArguments.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/Calls/RTS_FunctionCall.h"
+#include "Interpreter/FunctionData.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/ArrayInstance.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
+#include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_ChainedFunctionCall.h"
+#include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
 
 
 void URTS_TwoArguments::RunStep()
@@ -15,7 +20,7 @@ void URTS_TwoArguments::RunStep()
 		StepCompleted();
 		return;
 	}
-
+	
 	if (ArgumentsManaged == 1)
 	{
 		lhsVal = GetCodeRunner()->GetValue();

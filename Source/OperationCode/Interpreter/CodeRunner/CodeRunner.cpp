@@ -129,17 +129,27 @@ void UCodeRunner::PopRTS()
 
 UValue* UCodeRunner::GetVariable(FString VarName)
 {
+	// Check for variable in this call stack
 	for (int i = GetStackFrame().Scopes.Num() - 1; i >= 0; --i)
 	{
 		UValue** var = Stack.Top().Scopes[i].ValuesInScope.Find(VarName);
 		if (var) return *var;
 	}
 
+	// Check for variables that live in this owner
 	if (GetOwner())
 	{
 		UValue* var = GetOwner()->GetVariable(VarName);
 		if (var) return var;
 	}
+
+	// Check for globaly declared variables in the lowest stack frame
+	for (int i = Stack[0].Scopes.Num() - 1; i >= 0; --i)
+	{
+		UValue** var = Stack[0].Scopes[i].ValuesInScope.Find(VarName);
+		if (var) return *var;
+	}
+
 
 	return nullptr;
 }

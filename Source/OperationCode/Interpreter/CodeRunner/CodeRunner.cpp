@@ -127,6 +127,9 @@ void UCodeRunner::PopRTS()
 	AddDebugMessage("----Removing " + top->GetName() + " from RTS stack.");
 }
 
+// Visual studio is helpfull enough to optimize something in my last loop away when run in non-debug mode,
+// making the whole thing crash. Thanks, Visual studio, debuging this without the debugger was fun.
+#pragma optimize( "", on )
 UValue* UCodeRunner::GetVariable(FString VarName)
 {
 	// Check for variable in this call stack
@@ -153,7 +156,7 @@ UValue* UCodeRunner::GetVariable(FString VarName)
 
 	return nullptr;
 }
-
+#pragma optimize( "", off )
 
 
 

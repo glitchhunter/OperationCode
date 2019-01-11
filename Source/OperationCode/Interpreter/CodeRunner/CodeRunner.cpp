@@ -147,7 +147,8 @@ UValue* UCodeRunner::GetVariable(FString VarName)
 	}
 
 	// Check for globaly declared variables in the lowest stack frame
-	for (int i = Stack[0].Scopes.Num() - 1; i >= 0; --i)
+	// Only first three scopes are considered global
+	for (int i = 2; i >= 0; --i)
 	{
 		UValue** var = Stack[0].Scopes[i].ValuesInScope.Find(VarName);
 		if (var) return *var;

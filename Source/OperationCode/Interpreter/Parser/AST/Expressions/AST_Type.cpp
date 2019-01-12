@@ -3,6 +3,7 @@
 #include "AST_Type.h"
 #include "Interpreter/SemanticAnalysis/SemanticAnalysis.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/RTS_Type.h"
+#include "Interpreter/SemanticAnalysis/Phases/SemanticAnalysisPhase.h"
 
 
 UAST_Type::UAST_Type()

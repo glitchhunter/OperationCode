@@ -2,6 +2,7 @@
 
 #include "AST_TwoArguments.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/Operators/TwoArguments/RTS_TwoArguments.h"
+#include "Interpreter/SemanticAnalysis/Phases/SemanticAnalysisPhase.h"
 
 UAST_TwoArguments::UAST_TwoArguments()
 {

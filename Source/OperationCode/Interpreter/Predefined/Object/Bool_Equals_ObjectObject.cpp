@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Bool_Equals_ObjectObject.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
 
 UBool_Equals_ObjectObject::UBool_Equals_ObjectObject()
 {

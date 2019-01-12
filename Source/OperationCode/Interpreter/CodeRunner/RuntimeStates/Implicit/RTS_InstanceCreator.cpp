@@ -10,6 +10,8 @@
 #include "Interpreter/Parser/AST/Definition/AST_VariableDefinition.h"
 #include "Interpreter/CodeRunner/Values/Variables.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_ChainedFunctionCall.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
+#include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
 
 void URTS_InstanceCreator::RunStep()
 {

@@ -2,6 +2,8 @@
 
 #include "SymbolTable.h"
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
+#include "Interpreter/Parser/AST/Expressions/Calls/AST_FunctionCall.h"
+#include "Interpreter/Parser/AST/Definition/AST_ClassDefinition.h"
 
 FString USymbolTable::DebugPrintFunctions()
 {

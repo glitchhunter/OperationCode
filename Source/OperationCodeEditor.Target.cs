@@ -10,5 +10,7 @@ public class OperationCodeEditorTarget : TargetRules
 		Type = TargetType.Editor;
 
 		ExtraModuleNames.AddRange( new string[] { "OperationCode" } );
+
+        bUseUnityBuild = false;
 	}
 }

@@ -2,6 +2,7 @@
 
 #include "AST_OneArgument.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/Operators/OneArgument/RTS_OneArgument.h"
+#include "Interpreter/SemanticAnalysis/Phases/SemanticAnalysisPhase.h"
 
 UAST_OneArgument::UAST_OneArgument()
 {

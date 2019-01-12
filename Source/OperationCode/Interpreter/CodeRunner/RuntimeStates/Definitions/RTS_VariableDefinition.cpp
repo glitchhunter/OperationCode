@@ -35,6 +35,21 @@ void URTS_VariableDefinition::RunStep()
 		}
 	}
 
+	// Convert the return value to correct type
+	if (VariableDefinition->InitExpression && !TypeConverted && GetCodeRunner()->GetValue()->GetType() != VariableDefinition->Type)
+	{
+		UAST_FunctionDefinition* converter = GetCodeRunner()->GetSymbolTable()->GetImplicitConverterByName(GetCodeRunner()->GetValue()->GetType(), VariableDefinition->Type);
+		URTS_ChainedFunctionCall* converterRTS = NewObject<URTS_ChainedFunctionCall>(GetCodeRunner());
+		TArray<UValue*> ValueToConvert;
+		ValueToConvert.Add(GetCodeRunner()->GetValue());
+		converterRTS->Init(GetCodeRunner());
+		converterRTS->SetData(converter, GetCodeRunner()->GetTypeValue(VariableDefinition->Type), ValueToConvert);
+		GetCodeRunner()->AddRTS(converterRTS);
+		TypeConverted = true;
+		StepCompleted();
+		return;
+	}
+
 	AddDebugMessage("Returning the value of newly defined variable " + VariableDefinition->Name + ".");
 	GetCodeRunner()->AddVariable(VariableDefinition->Name, GetCodeRunner()->GetValue()->Duplicate());
 	Finished();

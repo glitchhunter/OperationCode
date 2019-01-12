@@ -2,6 +2,7 @@
 
 #include "AST_MemberAccess.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/Operators/TwoArguments/RTS_MemberAccess.h"
+#include "Interpreter/SemanticAnalysis/Phases/SemanticAnalysisPhase.h"
 
 UAST_MemberAccess::UAST_MemberAccess()
 {

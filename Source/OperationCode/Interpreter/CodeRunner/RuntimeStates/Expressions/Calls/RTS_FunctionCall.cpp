@@ -8,6 +8,7 @@
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
 #include "Interpreter/Parser/AST/Definition/AST_ClassDefinition.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_ChainedFunctionCall.h"
+#include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
 
 
 void URTS_FunctionCall::RunStep()

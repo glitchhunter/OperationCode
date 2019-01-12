@@ -36,7 +36,7 @@ protected:
 	bool VariableCreated = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	bool DuringConclassion;
+	bool TypeConverted;
 	
 	
 	

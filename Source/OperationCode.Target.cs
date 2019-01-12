@@ -10,5 +10,7 @@ public class OperationCodeTarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "OperationCode" } );
+
+        bUseUnityBuild = false;
 	}
 }

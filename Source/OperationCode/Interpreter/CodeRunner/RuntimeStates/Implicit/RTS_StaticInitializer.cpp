@@ -4,6 +4,8 @@
 #include "Interpreter/Parser/AST/Definition/AST_ClassDefinition.h"
 #include "Interpreter/Parser/AST/Definition/AST_VariableDefinition.h"
 #include "Interpreter/CodeRunner/Values/TypeValue.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
+#include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_InstanceCreator.h"
 
 void URTS_StaticInitializer::RunStep()
 {

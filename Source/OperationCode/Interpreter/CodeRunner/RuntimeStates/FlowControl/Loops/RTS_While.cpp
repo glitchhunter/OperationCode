@@ -3,6 +3,7 @@
 #include "RTS_While.h"
 #include "Interpreter/Parser/AST/FlowControl/Loops/AST_While.h"
 #include "Interpreter/CodeRunner/Values/PredefinedClasses/BoolInstance.h"
+#include "Interpreter/Parser/AST/Expressions/AST_Expression.h"
 
 
 

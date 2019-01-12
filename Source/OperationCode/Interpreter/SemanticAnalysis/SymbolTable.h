@@ -19,6 +19,7 @@ class UAST_Continue;
 class UAST_Operator;
 class UAST_Loop;
 class UAST_Expression;
+class UValue;
 
 
 

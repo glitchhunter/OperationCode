@@ -3,7 +3,10 @@
 #include "RTS_OneArgument.h"
 #include "Interpreter/Parser/AST/Expressions/Operators/OneArgument/AST_OneArgument.h"
 #include "Interpreter/CodeRunner/RuntimeStates/Expressions/Calls/RTS_FunctionCall.h"
-
+#include "Interpreter/CodeRunner/RuntimeStates/Implicit/RTS_ChainedFunctionCall.h"
+#include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/ArrayInstance.h"
+#include "Interpreter/SemanticAnalysis/SymbolTable.h"
 
 void URTS_OneArgument::RunStep()
 {

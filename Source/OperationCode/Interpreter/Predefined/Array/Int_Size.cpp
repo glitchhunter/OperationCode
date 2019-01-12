@@ -2,6 +2,7 @@
 
 #include "Int_Size.h"
 #include "Interpreter/CodeRunner/Values/PredefinedClasses/ArrayInstance.h"
+#include "Interpreter/CodeRunner/Values/PredefinedClasses/IntInstance.h"
 
 
 

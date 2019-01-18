@@ -7,6 +7,7 @@
 #include "TeachableDataAsset.generated.h"
 
 class UUserWidget;
+class UTeachableSegment;
 
 UENUM(BlueprintType)
 enum class ETeachableType : uint8
@@ -15,17 +16,18 @@ enum class ETeachableType : uint8
 	Tutorial
 };
 
-USTRUCT(BlueprintType)
-struct FTeachableSegment
+UCLASS(Blueprintable, EditInlineNew)
+class OPERATIONCODE_API UTeachableSegment : public UObject
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (Multiline = "true"))
-	FString TextSegment;
+public:
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSubclassOf<UUserWidget> ExtraWidget;
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	UUserWidget* GetWidget(UObject* WorldContext);
 
+	UFUNCTION(BlueprintCallable)
+	UUserWidget* CreateTeachableWidget(TSubclassOf<UUserWidget> WidgetClass, UObject* WorldContext);
 };
 
 
@@ -45,8 +47,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString Category;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FTeachableSegment> Segment;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Instanced)
+	TArray<UTeachableSegment*> Segments;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	ETeachableType Type;

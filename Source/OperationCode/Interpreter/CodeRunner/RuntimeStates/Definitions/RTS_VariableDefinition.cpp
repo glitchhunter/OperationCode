@@ -36,7 +36,7 @@ void URTS_VariableDefinition::RunStep()
 	}
 
 	// Convert the return value to correct type
-	if (VariableDefinition->InitExpression && !TypeConverted && GetCodeRunner()->GetValue()->GetType() != VariableDefinition->Type)
+	if (VariableDefinition->InitExpression && !TypeConverted && !GetCodeRunner()->GetSymbolTable()->IsChildOfByName(GetCodeRunner()->GetValue()->GetType(), VariableDefinition->Type))
 	{
 		UAST_FunctionDefinition* converter = GetCodeRunner()->GetSymbolTable()->GetImplicitConverterByName(GetCodeRunner()->GetValue()->GetType(), VariableDefinition->Type);
 		URTS_ChainedFunctionCall* converterRTS = NewObject<URTS_ChainedFunctionCall>(GetCodeRunner());

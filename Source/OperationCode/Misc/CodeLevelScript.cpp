@@ -71,3 +71,25 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 }
 
 
+int32 ACodeLevelScript::GetPuzzleIndex_Implementation() const
+{
+	return PuzzleIndex;
+}
+
+void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* = true */)
+{
+	if (HigherOnly && NewIndex <= GetPuzzleIndex()) return;
+
+	PuzzleIndex = NewIndex;
+	HintIndex = 0;
+}
+
+bool ACodeLevelScript::GetNextHintText(FString& HintText)
+{
+	if (!HintData.IsValidIndex(GetPuzzleIndex())) return false;
+	if (!HintData[GetPuzzleIndex()].HintText.IsValidIndex(GetHintIndex())) return false;
+	HintText = HintData[GetPuzzleIndex()].HintText[GetHintIndex()];
+	HintIndex++;
+	return true;
+}
+

@@ -7,10 +7,23 @@
 #include "Interpreter/Parser/AST/Definition/AST_FunctionDefinition.h"
 #include "Misc/LevelDataAsset.h"
 #include "Misc/LevelFlowAsset.h"
+#include "CodeGameInstance/CodeGameInstanceBase.h"
+
+
+ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer)
+{
+	PldClass = UPersistentLevelData::StaticClass();
+}
 
 
 void ACodeLevelScript::BeginPlay()
 {
+	CodeGameInstance = Cast<UCodeGameInstanceBase>(GetGameInstance());
+	if (CodeGameInstance && PldClass && !CodeGameInstance->GetPLD())
+	{
+		CodeGameInstance->CreatePLD(PldClass);
+	}
+
 	APlayerController* cont = UGameplayStatics::GetPlayerController(this, 0);
 	CodePC = Cast<ACodePlayerControllerBase>(cont);
 	CodePC->LevelScript = this;

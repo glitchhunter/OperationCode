@@ -10,3 +10,9 @@ UPersistentLevelData* UCodeGameInstanceBase::CreatePLD(TSubclassOf<UPersistentLe
 	PLD = NewObject<UPersistentLevelData>(this, Class);
 	return PLD;
 }
+
+void UCodeGameInstanceBase::Save()
+{
+	OnSave.Broadcast(PLD);
+}
+

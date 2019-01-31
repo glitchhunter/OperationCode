@@ -17,6 +17,12 @@ ACodePlayerControllerBase::ACodePlayerControllerBase()
 
 void ACodePlayerControllerBase::BeginPlay()
 {
+	// One day, due to unknown arcane magic, somewhere along the way between constructor and begin play, interpretter got nulled.
+	if (!Interpreter)
+	{
+		Interpreter = NewObject<UInterpreter>(this);
+		UE_LOG(LogTemp, Error, TEXT("Interpreter still nulled after constructor."));
+	}
 	Interpreter->OnRuntimeMessageSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeMessageSent);
 	Interpreter->OnRuntimeLogSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeLogSent);
 	Interpreter->OnStaticInitCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnStaticinitCompleted);

@@ -18,5 +18,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MultiLine = "true"))
 	TArray<FString> HintText;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MultiLine = "true"))
+	FString NoMoreHintsText;
 
 };

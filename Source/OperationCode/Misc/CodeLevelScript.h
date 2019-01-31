@@ -12,6 +12,7 @@ class ACodePlayerControllerBase;
 class ULevelDataAsset;
 class ULevelFlowAsset;
 class UCodeGameInstanceBase;
+class UPersistentLevelData;
 
 /**
  * 
@@ -41,6 +42,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	bool GetNextHintText(FString& HintText);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void OnSave(UPersistentLevelData* PLD);
 
 
 

@@ -19,9 +19,26 @@ ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer)
 void ACodeLevelScript::BeginPlay()
 {
 	CodeGameInstance = Cast<UCodeGameInstanceBase>(GetGameInstance());
-	if (CodeGameInstance && PldClass && !CodeGameInstance->GetPLD())
+	if (CodeGameInstance)
 	{
-		CodeGameInstance->CreatePLD(PldClass);
+		CodeGameInstance->OnSave.AddDynamic(this, &ACodeLevelScript::OnSave);
+
+		// No PLD means that this level has no data to load, so we create one.
+		if (!CodeGameInstance->GetPLD())
+		{
+			if (PldClass) CodeGameInstance->CreatePLD(PldClass);
+			else
+			{
+				// Backup in case the class is null
+				CodeGameInstance->CreatePLD(UPersistentLevelData::StaticClass());
+			}
+		}
+		else
+		{
+			// PLD exists, so we the level reloaded.
+			PuzzleIndex = CodeGameInstance->GetPLD()->PuzzleIndex;
+			HintIndex = CodeGameInstance->GetPLD()->HintIndex;
+		}
 	}
 
 	APlayerController* cont = UGameplayStatics::GetPlayerController(this, 0);
@@ -91,5 +108,11 @@ bool ACodeLevelScript::GetNextHintText(FString& HintText)
 	HintText = HintData[GetPuzzleIndex()].HintText[GetHintIndex()];
 	HintIndex++;
 	return true;
+}
+
+void ACodeLevelScript::OnSave_Implementation(UPersistentLevelData* PLD)
+{
+	PLD->PuzzleIndex = GetPuzzleIndex();
+	PLD->HintIndex = HintIndex;
 }
 

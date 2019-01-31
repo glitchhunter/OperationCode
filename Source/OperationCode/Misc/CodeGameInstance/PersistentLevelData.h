@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Misc/Notifications/NotificationData.h"
 #include "PersistentLevelData.generated.h"
 
 /**
@@ -19,15 +20,16 @@ class OPERATIONCODE_API UPersistentLevelData : public UObject
 	
 public:
 
-	UPersistentLevelData();
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 PuzzleIndex;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	int32 CheckpointIndex = -1;
+	int32 HintIndex;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TSet<UTeachableDataAsset*> ExtraTeachables;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	TArray<FString> Hints;	
-	
+	TArray<FNotificationData> Notifications;
+
 };

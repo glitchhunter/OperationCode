@@ -10,7 +10,7 @@
 #include "CodeGameInstance/CodeGameInstanceBase.h"
 
 
-ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer)
+ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	PldClass = UPersistentLevelData::StaticClass();
 }
@@ -26,6 +26,8 @@ void ACodeLevelScript::BeginPlay()
 		// No PLD means that this level has no data to load, so we create one.
 		if (!CodeGameInstance->GetPLD())
 		{
+			IsFirstLoad = true;
+			StartTime = FDateTime::Now();
 			if (PldClass) CodeGameInstance->CreatePLD(PldClass);
 			else
 			{
@@ -35,9 +37,12 @@ void ACodeLevelScript::BeginPlay()
 		}
 		else
 		{
-			// PLD exists, so we the level reloaded.
+			// PLD exists, so the level reloaded.
+			IsFirstLoad = false;
 			PuzzleIndex = CodeGameInstance->GetPLD()->PuzzleIndex;
 			HintIndex = CodeGameInstance->GetPLD()->HintIndex;
+			StartTime = CodeGameInstance->GetPLD()->LevelStartTime;
+			UserRequestedHintsCount = CodeGameInstance->GetPLD()->UserRequestedHintsCount;
 		}
 	}
 
@@ -67,7 +72,7 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 	if (!LevelData || !LevelFlow) return;
 
 	// First add level specific limitations
-	CodePC->Interpreter->Limitations.Append(LevelData->LevelSpecificLimitations);
+	CodePC->GetInterpreter()->Limitations.Append(LevelData->LevelSpecificLimitations);
 
 	// Iterate through all chapters from end
 	for (int i = LevelFlow->Chapters.Num() - 1; i >= 0; --i)
@@ -82,7 +87,7 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 			if (currentLevel == LevelData) return;
 
 			// Append limitation
-			CodePC->Interpreter->Limitations.Append(currentLevel->Unlocks);
+			CodePC->GetInterpreter()->Limitations.Append(currentLevel->Unlocks);
 		}
 	}
 }
@@ -107,6 +112,7 @@ bool ACodeLevelScript::GetNextHintText(FString& HintText)
 	if (!HintData[GetPuzzleIndex()].HintText.IsValidIndex(GetHintIndex())) return false;
 	HintText = HintData[GetPuzzleIndex()].HintText[GetHintIndex()];
 	HintIndex++;
+	UserRequestedHintsCount++;
 	return true;
 }
 
@@ -114,5 +120,7 @@ void ACodeLevelScript::OnSave_Implementation(UPersistentLevelData* PLD)
 {
 	PLD->PuzzleIndex = GetPuzzleIndex();
 	PLD->HintIndex = HintIndex;
+	PLD->LevelStartTime = StartTime;
+	PLD->UserRequestedHintsCount = UserRequestedHintsCount;
 }
 

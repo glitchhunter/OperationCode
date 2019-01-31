@@ -11,23 +11,23 @@
 
 ACodePlayerControllerBase::ACodePlayerControllerBase()
 {
-	Interpreter = CreateDefaultSubobject<UInterpreter>(TEXT("Interpreter"));
+	Interp = CreateDefaultSubobject<UInterpreter>(TEXT("Interpreter"));
 }
 
 
 void ACodePlayerControllerBase::BeginPlay()
 {
-	// One day, due to unknown arcane magic, somewhere along the way between constructor and begin play, interpretter got nulled.
-	if (!Interpreter)
+	// One day, due to unknown arcane magic, somewhere along the way between constructor and begin play, interpreter got nulled.
+	if (!GetInterpreter())
 	{
-		Interpreter = NewObject<UInterpreter>(this);
+		Interp = NewObject<UInterpreter>(this);
 		UE_LOG(LogTemp, Error, TEXT("Interpreter still nulled after constructor."));
 	}
-	Interpreter->OnRuntimeMessageSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeMessageSent);
-	Interpreter->OnRuntimeLogSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeLogSent);
-	Interpreter->OnStaticInitCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnStaticinitCompleted);
-	Interpreter->OnCodeCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnCodeCompleted);
-	Interpreter->OnRuntimeError.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeError);
+	GetInterpreter()->OnRuntimeMessageSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeMessageSent);
+	GetInterpreter()->OnRuntimeLogSent.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeLogSent);
+	GetInterpreter()->OnStaticInitCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnStaticinitCompleted);
+	GetInterpreter()->OnCodeCompleted.AddDynamic(this, &ACodePlayerControllerBase::OnCodeCompleted);
+	GetInterpreter()->OnRuntimeError.AddDynamic(this, &ACodePlayerControllerBase::OnRuntimeError);
 
 	Super::BeginPlay();
 }
@@ -38,41 +38,41 @@ bool ACodePlayerControllerBase::Compile_Implementation(const FString& SourceCode
 	if (!CanCompile()) return false;
 
 	Clear();
-	CompileData = Interpreter->Compile(SourceCode, GetPrecompiledData(), GetTopOwner());
-	return Interpreter->IsCompileValid(CompileData);
+	CompileData = GetInterpreter()->Compile(SourceCode, GetPrecompiledData(), GetTopOwner());
+	return GetInterpreter()->IsCompileValid(CompileData);
 }
 
 bool ACodePlayerControllerBase::CanCompile()
 {
-	if (!Interpreter) return false;
-	if (!Interpreter->GetCodeRunner()) return true;
-	return Interpreter->GetCodeRunner()->GetCurrentCodeState() == ECodeState::NotRunning;
+	if (!GetInterpreter()) return false;
+	if (!GetInterpreter()->GetCodeRunner()) return true;
+	return GetInterpreter()->GetCodeRunner()->GetCurrentCodeState() == ECodeState::NotRunning;
 }
 
 void ACodePlayerControllerBase::RunCode(bool AutoRun)
 {
 	if (!CanRunCode()) return;
 
-	Interpreter->RunCode(CompileData.AST, CompileData.SymbolTable, AutoRun, MaxSteps);
+	GetInterpreter()->RunCode(CompileData.AST, CompileData.SymbolTable, AutoRun, MaxSteps);
 }
 
 bool ACodePlayerControllerBase::CanRunCode()
 {
-	if (!Interpreter) return false;
-	if (Interpreter->GetCurrentState() == EInterpreterState::AnalysisCompleted) return true;
-	return (Interpreter->GetCodeRunner() && Interpreter->GetCodeRunner()->GetCurrentCodeState() != ECodeState::Running && Interpreter->GetCurrentState() == EInterpreterState::RunningCode);
+	if (!GetInterpreter()) return false;
+	if (GetInterpreter()->GetCurrentState() == EInterpreterState::AnalysisCompleted) return true;
+	return (GetInterpreter()->GetCodeRunner() && GetInterpreter()->GetCodeRunner()->GetCurrentCodeState() != ECodeState::Running && GetInterpreter()->GetCurrentState() == EInterpreterState::RunningCode);
 }
 
 void ACodePlayerControllerBase::Clear_Implementation()
 {
 	ClearCompileData();
-	Interpreter->Clear();
+	GetInterpreter()->Clear();
 }
 
 void ACodePlayerControllerBase::SetMaxSteps(int32 NewMaxSteps)
 {
 	MaxSteps = NewMaxSteps;
-	if (Interpreter && Interpreter->GetCodeRunner()) Interpreter->GetCodeRunner()->MaxStepsPerFrame = MaxSteps;
+	if (GetInterpreter() && GetInterpreter()->GetCodeRunner()) GetInterpreter()->GetCodeRunner()->MaxStepsPerFrame = MaxSteps;
 }
 
 UAST_Basic* ACodePlayerControllerBase::GetPrecompiledData_Implementation()

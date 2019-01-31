@@ -6,6 +6,7 @@
 #include "Engine/LevelScriptActor.h"
 #include "CodeGameInstance/PersistentLevelData.h"
 #include "Misc/PuzzleHintData.h"
+#include "Runtime/Core/Public/Misc/DateTime.h"
 #include "CodeLevelScript.generated.h"
 
 class ACodePlayerControllerBase;
@@ -46,6 +47,9 @@ public:
 	UFUNCTION(BlueprintNativeEvent)
 	void OnSave(UPersistentLevelData* PLD);
 
+	UFUNCTION(BlueprintPure)
+	bool GetIsFirstLoad() { return IsFirstLoad; }
+
 
 
 
@@ -76,6 +80,17 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int32 PuzzleIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 UserRequestedHintsCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FDateTime StartTime;
+
+private:
+
+	UPROPERTY()
+	bool IsFirstLoad;
 	
 	
 };

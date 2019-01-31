@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Misc/Notifications/NotificationData.h"
+#include "Runtime/Core/Public/Misc/DateTime.h"
 #include "PersistentLevelData.generated.h"
 
 /**
@@ -31,5 +32,11 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<FNotificationData> Notifications;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	FDateTime LevelStartTime;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 UserRequestedHintsCount;
 
 };

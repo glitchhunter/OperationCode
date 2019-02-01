@@ -91,13 +91,14 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Code")
 		void RemoveFunction(const FFunctionSignature& FunctionSig);
 
+	UFUNCTION(BlueprintPure)
+		UInterpreter* GetInterpreter() const { return Interp; }
 
 
 
 
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		UInterpreter* Interpreter;
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FCompileData CompileData;
@@ -122,6 +123,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		ACodeLevelScript* LevelScript;
+
+
+private:
+
+	UPROPERTY(VisibleAnywhere, Export)
+		UInterpreter* Interp;
 	
 	
 };

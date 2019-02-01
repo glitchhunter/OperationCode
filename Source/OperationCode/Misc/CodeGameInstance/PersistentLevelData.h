@@ -22,6 +22,9 @@ class OPERATIONCODE_API UPersistentLevelData : public UObject
 public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	FString LevelName;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	int32 PuzzleIndex;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

@@ -47,8 +47,14 @@ public:
 	UFUNCTION(BlueprintNativeEvent)
 	void OnSave(UPersistentLevelData* PLD);
 
+	UFUNCTION(BlueprintNativeEvent)
+	void OnLoad(UPersistentLevelData* PLD);
+
 	UFUNCTION(BlueprintPure)
 	bool GetIsFirstLoad() { return IsFirstLoad; }
+
+	UFUNCTION()
+	void FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance);
 
 
 
@@ -70,6 +76,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FPuzzleHintData> HintData;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool AutoSaveOnNewLevelStart;
 
 
 

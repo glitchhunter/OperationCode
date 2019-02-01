@@ -13,6 +13,7 @@
 ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	PldClass = UPersistentLevelData::StaticClass();
+	AutoSaveOnNewLevelStart = true;
 }
 
 
@@ -23,26 +24,14 @@ void ACodeLevelScript::BeginPlay()
 	{
 		CodeGameInstance->OnSave.AddDynamic(this, &ACodeLevelScript::OnSave);
 
-		// No PLD means that this level has no data to load, so we create one.
-		if (!CodeGameInstance->GetPLD())
+		// No stored data, or data that came from another level, mean that this level loaded for the first time.
+		if (!CodeGameInstance->GetPLD() || CodeGameInstance->GetPLD()->LevelName == GetWorld()->GetMapName())
 		{
-			IsFirstLoad = true;
-			StartTime = FDateTime::Now();
-			if (PldClass) CodeGameInstance->CreatePLD(PldClass);
-			else
-			{
-				// Backup in case the class is null
-				CodeGameInstance->CreatePLD(UPersistentLevelData::StaticClass());
-			}
+			FirstLoadSetup(CodeGameInstance);
 		}
 		else
 		{
-			// PLD exists, so the level reloaded.
-			IsFirstLoad = false;
-			PuzzleIndex = CodeGameInstance->GetPLD()->PuzzleIndex;
-			HintIndex = CodeGameInstance->GetPLD()->HintIndex;
-			StartTime = CodeGameInstance->GetPLD()->LevelStartTime;
-			UserRequestedHintsCount = CodeGameInstance->GetPLD()->UserRequestedHintsCount;
+			OnLoad(CodeGameInstance->GetPLD());
 		}
 	}
 
@@ -93,6 +82,21 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 }
 
 
+void ACodeLevelScript::FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance)
+{
+	IsFirstLoad = true;
+	StartTime = FDateTime::Now();
+	if (PldClass) CodeGameInstance->CreatePLD(PldClass);
+	else
+	{
+		// Backup in case the class is null
+		CodeGameInstance->CreatePLD(UPersistentLevelData::StaticClass());
+	}
+	
+	CodeGameInstance->GetPLD()->LevelName = GetWorld()->GetMapName();
+	if (AutoSaveOnNewLevelStart) CodeGameInstance->Save();
+}
+
 int32 ACodeLevelScript::GetPuzzleIndex_Implementation() const
 {
 	return PuzzleIndex;
@@ -122,5 +126,14 @@ void ACodeLevelScript::OnSave_Implementation(UPersistentLevelData* PLD)
 	PLD->HintIndex = HintIndex;
 	PLD->LevelStartTime = StartTime;
 	PLD->UserRequestedHintsCount = UserRequestedHintsCount;
+}
+
+void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
+{
+	IsFirstLoad = false;
+	PuzzleIndex = PLD->PuzzleIndex;
+	HintIndex = PLD->HintIndex;
+	StartTime = PLD->LevelStartTime;
+	UserRequestedHintsCount = PLD->UserRequestedHintsCount;
 }
 

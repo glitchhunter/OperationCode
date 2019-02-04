@@ -32,14 +32,8 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ManageLimitations();
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintPure)
-	int32 GetPuzzleIndex() const;
-
 	UFUNCTION(BlueprintCallable)
 	void SetPuzzleIndex(const int32 NewIndex, bool HigherOnly = true);
-
-	UFUNCTION(BlueprintPure)
-	int32 GetHintIndex() const { return HintIndex; }
 
 	UFUNCTION(BlueprintCallable)
 	bool GetNextHintText(FString& HintText);
@@ -48,13 +42,16 @@ public:
 	void NewPuzzleStarted(int32 index);
 
 	UFUNCTION(BlueprintNativeEvent)
-	void OnSave(UPersistentLevelData* PLD);
-
-	UFUNCTION(BlueprintNativeEvent)
 	void OnLoad(UPersistentLevelData* PLD);
 
 	UFUNCTION(BlueprintPure)
 	bool GetIsFirstLoad() { return IsFirstLoad; }
+
+	UFUNCTION(BlueprintPure)
+	UPersistentLevelData* GetPLD() const;
+
+	UFUNCTION(BlueprintPure)
+	bool IsPuzzleCompleted(int32 index);
 
 	UFUNCTION()
 	void FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance);
@@ -71,9 +68,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	ULevelFlowAsset* LevelFlow;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 CheckpointIndex;
-
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<UPersistentLevelData> PldClass = UPersistentLevelData::StaticClass();;
 
@@ -85,22 +79,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool AutoSaveOnNewLevelStart;
-
-
-
-protected:
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 HintIndex;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	int32 PuzzleIndex;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	int32 UserRequestedHintsCount;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	FDateTime StartTime;
 
 private:
 

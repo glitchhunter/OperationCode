@@ -22,10 +22,8 @@ void ACodeLevelScript::BeginPlay()
 	CodeGameInstance = Cast<UCodeGameInstanceBase>(GetGameInstance());
 	if (CodeGameInstance)
 	{
-		CodeGameInstance->OnSave.AddDynamic(this, &ACodeLevelScript::OnSave);
-
 		// No stored data, or data that came from another level, mean that this level loaded for the first time.
-		if (!CodeGameInstance->GetPLD() || CodeGameInstance->GetPLD()->LevelName == GetWorld()->GetMapName())
+		if (!CodeGameInstance->GetPLD() || CodeGameInstance->GetPLD()->LevelName != GetWorld()->GetMapName())
 		{
 			FirstLoadSetup(CodeGameInstance);
 		}
@@ -33,6 +31,9 @@ void ACodeLevelScript::BeginPlay()
 		{
 			OnLoad(CodeGameInstance->GetPLD());
 		}
+
+		// Bind on puzzle index changed
+		CodeGameInstance->GetPLD()->OnNewPuzzleIndex.AddDynamic(this, &ACodeLevelScript::NewPuzzleStarted);
 	}
 
 	APlayerController* cont = UGameplayStatics::GetPlayerController(this, 0);
@@ -82,10 +83,14 @@ void ACodeLevelScript::ManageLimitations_Implementation()
 }
 
 
+UPersistentLevelData* ACodeLevelScript::GetPLD() const
+{
+	return CodeGameInstance->GetPLD();
+}
+
 void ACodeLevelScript::FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance)
 {
 	IsFirstLoad = true;
-	StartTime = FDateTime::Now();
 	if (PldClass) CodeGameInstance->CreatePLD(PldClass);
 	else
 	{
@@ -94,57 +99,40 @@ void ACodeLevelScript::FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance)
 	}
 	
 	CodeGameInstance->GetPLD()->LevelName = GetWorld()->GetMapName();
-	if (AutoSaveOnNewLevelStart) CodeGameInstance->Save();
+	CodeGameInstance->GetPLD()->LevelStartTime = FDateTime::Now();
 }
 
-int32 ACodeLevelScript::GetPuzzleIndex_Implementation() const
-{
-	return PuzzleIndex;
-}
 
 void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* = true */)
 {
-	if (HigherOnly && NewIndex <= GetPuzzleIndex()) return;
-
-	PuzzleIndex = NewIndex;
-	HintIndex = 0;
-	NewPuzzleStarted(PuzzleIndex);
+	CodeGameInstance->GetPLD()->SetPuzzleIndex(NewIndex, HigherOnly);
 }
 
 bool ACodeLevelScript::GetNextHintText(FString& HintText)
 {
-	if (!HintData.IsValidIndex(GetPuzzleIndex()))
+	if (!HintData.IsValidIndex(GetPLD()->GetPuzzleIndex()))
 	{
-		HintText = "Invalid puzzle index: " + FString::FromInt(GetPuzzleIndex());
+		HintText = "Invalid puzzle index: " + FString::FromInt(GetPLD()->GetPuzzleIndex());
 		return false;
 	}
-	if (!HintData[GetPuzzleIndex()].HintText.IsValidIndex(GetHintIndex()))
+	if (!HintData[GetPLD()->GetPuzzleIndex()].HintText.IsValidIndex(GetPLD()->HintIndex))
 	{
-		HintText = HintData[GetPuzzleIndex()].NoMoreHintsText;
+		HintText = HintData[GetPLD()->GetPuzzleIndex()].NoMoreHintsText;
 		return false;
 	}
-	HintText = HintData[GetPuzzleIndex()].HintText[GetHintIndex()];
-	HintIndex++;
-	UserRequestedHintsCount++;
+	HintText = HintData[GetPLD()->GetPuzzleIndex()].HintText[GetPLD()->HintIndex];
+	GetPLD()->HintIndex++;
+	GetPLD()->UserRequestedHintsCount++;
 	return true;
-}
-
-void ACodeLevelScript::OnSave_Implementation(UPersistentLevelData* PLD)
-{
-	PLD->PuzzleIndex = GetPuzzleIndex();
-	PLD->HintIndex = HintIndex;
-	PLD->LevelStartTime = StartTime;
-	PLD->UserRequestedHintsCount = UserRequestedHintsCount;
-	PLD->CheckpointIndex = CheckpointIndex;
 }
 
 void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
 {
 	IsFirstLoad = false;
-	PuzzleIndex = PLD->PuzzleIndex;
-	HintIndex = PLD->HintIndex;
-	StartTime = PLD->LevelStartTime;
-	UserRequestedHintsCount = PLD->UserRequestedHintsCount;
-	CheckpointIndex = PLD->CheckpointIndex;
+}
+
+bool ACodeLevelScript::IsPuzzleCompleted(int32 index)
+{
+	return GetPLD()->GetPuzzleIndex() > index;
 }
 

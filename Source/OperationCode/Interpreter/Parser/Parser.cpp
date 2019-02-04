@@ -375,7 +375,7 @@ UAST_Node* UParser::ParseNode(int32& Index)
 	ConsumeTokens(CurrentIndex);
 	if (IsIndexValid(CurrentIndex))
 	{
-		ThrowError("Unknown thingy.");
+		ThrowError("Unknown Statement/Definition.");
 		return nullptr;
 	}
 
@@ -402,7 +402,7 @@ UAST_ClassDefinition* UParser::ParseClassDefinition(int32& Index)
 	UT_Identifier* ClassIdentifierToken = Cast<UT_Identifier>(CurrentToken);
 	if (!ClassIdentifierToken)
 	{
-		ThrowError(TEXT("Expected identifier after class keyword."));
+		ThrowError(TEXT("Expected identifier (class name) after class keyword."));
 		return nullptr;
 	}
 	ClassDefinition->Name = ClassIdentifierToken->ID;
@@ -413,7 +413,7 @@ UAST_ClassDefinition* UParser::ParseClassDefinition(int32& Index)
 		UT_Identifier* ParentNameToken = Cast<UT_Identifier>(GetToken(CurrentIndex));
 		if (!ParentNameToken)
 		{
-			ThrowError(TEXT("Expected a parent after \"inherits\" keyword in class definition."));
+			ThrowError(TEXT("Expected a parent after \"inherits\" keyword in class definition for class " + ClassIdentifierToken->ID + "."));
 			return nullptr;
 		}
 		ClassDefinition->ParentName = ParentNameToken->ID;
@@ -423,7 +423,7 @@ UAST_ClassDefinition* UParser::ParseClassDefinition(int32& Index)
 	// Open curly bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_OpenCurlyBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Expected \"{\" after class identifier."));
+		ThrowError(TEXT("Expected \"{\" after class identifier \"" + ClassIdentifierToken->ID + "\"."));
 		return nullptr;
 	}
 
@@ -444,7 +444,7 @@ UAST_ClassDefinition* UParser::ParseClassDefinition(int32& Index)
 				if (!IsTokenOfClass(CurrentIndex, UT_Semicolon::StaticClass()))
 				{
 					UToken* token = GetToken(CurrentIndex, true, true, false);
-					ThrowError(TEXT("Unexpected token \"" + token->GetTokenName() + "\" found inside class definition. Expected either Function or variable definition."));
+					ThrowError(TEXT("Unexpected token \"" + token->GetTokenName() + "\" found inside class definition. Expected either function or variable definition."));
 					return nullptr;
 				}
 			}
@@ -503,14 +503,14 @@ UAST_FunctionDefinition* UParser::ParseFunctionDefinition(int32& Index)
 	TArray<FParameterData> Parameters;
 	if (!GetParameters(CurrentIndex, Parameters))
 	{
-		ThrowError(TEXT("Invalid parameter in function definition."));
+		ThrowError(TEXT("Invalid parameter in function definition \"" + data.FunctionName + "\"."));
 		return nullptr;
 	}
 
 	// Closed round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Missing \")\" in parameter list."));
+		ThrowError(TEXT("Missing \")\" in parameter list in function definition \"" + data.FunctionName + "\"."));
 		return nullptr;
 	}
 
@@ -530,7 +530,7 @@ UAST_FunctionDefinition* UParser::ParseFunctionDefinition(int32& Index)
 	if (FunctionBody) FunctionDefinition->Scope = FunctionBody;
 	else
 	{
-		ThrowError(TEXT("Invalid function body"));
+		ThrowError(TEXT("Invalid function body for function definition \"" + data.FunctionName + "\"."));
 		return nullptr;
 	}
 
@@ -578,7 +578,7 @@ UAST_VariableDefinition* UParser::ParseVariableDefinition(int32& Index)
 		if (Initialization) VariableDefinition->InitExpression = Initialization;
 		else 
 		{
-			ThrowError(TEXT("Invalid initialization for variable definition"));
+			ThrowError(TEXT("Invalid initialization for variable definition \"" + Name + "\" of type \"" + type + "\"."));
 			return nullptr;
 		}
 	}
@@ -615,7 +615,7 @@ UAST_FunctionCall* UParser::ParseFunctionCall(int32& Index)
 	{
 		if (Arguments.Num() > 0 && !IsTokenOfClass(CurrentIndex, UT_Comma::StaticClass()))
 		{
-			ThrowError(TEXT("Expected a \",\" after an argument"));
+			ThrowError(TEXT("Expected a \",\" after an argument in function call \"" + NameIdentifier->ID + "\"."));
 			return nullptr;
 		}
 
@@ -623,7 +623,7 @@ UAST_FunctionCall* UParser::ParseFunctionCall(int32& Index)
 		if (arg) Arguments.Add(arg);
 		else
 		{
-			ThrowError(TEXT("Invalid argument"));
+			ThrowError(TEXT("Invalid argument in function call " + NameIdentifier->ID + "."));
 			return nullptr;
 		}
 	}
@@ -631,7 +631,7 @@ UAST_FunctionCall* UParser::ParseFunctionCall(int32& Index)
 	// Closed round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Expected a closing bracket in function call argument list"));
+		ThrowError(TEXT("Expected a closing bracket in function call \"" + NameIdentifier->ID + "\" argument list."));
 		return nullptr;
 	}
 
@@ -687,14 +687,14 @@ UAST_If* UParser::ParseIf(int32& Index)
 	UAST_Expression* Condition = ParseExpression(CurrentIndex);
 	if (!Condition)
 	{
-		ThrowError(TEXT("Invalid expression"));
+		ThrowError(TEXT("Invalid condition expression inside an if statement"));
 		return nullptr;
 	}
 
 	// Closed bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Expected \")\" after condition in if."));
+		ThrowError(TEXT("Expected \")\" after the condition expression inside the if statement."));
 		return nullptr;
 	}
 
@@ -706,7 +706,7 @@ UAST_If* UParser::ParseIf(int32& Index)
 	UAST_Node* Node = ParseNode(CurrentIndex);
 	if (!Node)
 	{
-		ThrowError(TEXT("Invalid if (True branch)."));
+		ThrowError(TEXT("Invalid statement/expression inside the true block of the if statement."));
 		return nullptr;
 	}
 	If->TrueBranch = Node;
@@ -717,7 +717,7 @@ UAST_If* UParser::ParseIf(int32& Index)
 		Node = ParseNode(CurrentIndex);
 		if (!Node)
 		{
-			ThrowError(TEXT("Invalid if (False branch)."));
+			ThrowError(TEXT("Invalid statement/expression inside the false block of the if statement."));
 			return nullptr;
 		}
 		If->FalseBranch = Node;
@@ -742,7 +742,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	// Open round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_OpenRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Expected \"(\" after for."));
+		ThrowError(TEXT("Expected \"(\" after the for keyword."));
 		return nullptr;
 	}
 
@@ -753,7 +753,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	UAST_VariableDefinition* Initialization = ParseVariableDefinition(CurrentIndex);
 	if (!Initialization)
 	{
-		ThrowError(TEXT("invalid variable declaration inside for."));
+		ThrowError(TEXT("invalid variable declaration inside a for statement."));
 		return nullptr;
 	}
 	For->Initialization = Initialization;
@@ -761,7 +761,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	// Semicolon
 	if (!IsTokenOfClass(CurrentIndex, UT_Semicolon::StaticClass()))
 	{
-		ThrowError(TEXT("Exprected \";\" after variable declaration within for."));
+		ThrowError(TEXT("Exprected \";\" after variable declaration within the for statement."));
 		return nullptr;
 	}
 
@@ -769,7 +769,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	UAST_Expression* Condition = ParseExpression(CurrentIndex);
 	if (!Condition)
 	{
-		ThrowError(TEXT("invalid condition inside for"));
+		ThrowError(TEXT("Invalid condition inside the for statement"));
 		return nullptr;
 	}
 	For->Condition = Condition;
@@ -777,7 +777,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	// Semicolon
 	if (!IsTokenOfClass(CurrentIndex, UT_Semicolon::StaticClass()))
 	{
-		ThrowError(TEXT("Exprected \";\" after condition within for."));
+		ThrowError(TEXT("Exprected \";\" after condition within the for statement."));
 		return nullptr;
 	}
 
@@ -785,7 +785,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	UAST_Expression* Update = ParseExpression(CurrentIndex);
 	if (!Update)
 	{
-		ThrowError(TEXT("Invalid update in for header."));
+		ThrowError(TEXT("Invalid update in for statement."));
 		return nullptr;
 	}
 	For->Update = Update;
@@ -793,7 +793,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	// Closed round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Expected \")\" in for header."));
+		ThrowError(TEXT("Expected closing \")\" in for statement."));
 		return nullptr;
 	}
 
@@ -801,7 +801,7 @@ UAST_For* UParser::ParseFor(int32& Index)
 	UAST_Node* Body = ParseNode(CurrentIndex);
 	if (!Body)
 	{
-		ThrowError(TEXT("Invalid for body."));
+		ThrowError(TEXT("Invalid for statement body."));
 		return nullptr;
 	}
 	For->Body = Body;
@@ -836,7 +836,7 @@ UAST_While* UParser::ParseWhile(int32& Index)
 	UAST_Expression* Condition = ParseExpression(CurrentIndex);
 	if (!Condition)
 	{
-		ThrowError(TEXT("invalid condition inside while."));
+		ThrowError(TEXT("invalid condition inside while statement."));
 		return nullptr;
 	}
 	While->Condition = Condition;
@@ -844,7 +844,7 @@ UAST_While* UParser::ParseWhile(int32& Index)
 	// Closed round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Unclosed bracket in while condition."));
+		ThrowError(TEXT("Unclosed bracket in while statement."));
 		return nullptr;
 	}
 
@@ -852,7 +852,7 @@ UAST_While* UParser::ParseWhile(int32& Index)
 	UAST_Node* Body = ParseNode(CurrentIndex);
 	if (!Body)
 	{
-		ThrowError(TEXT("Invalid body in a ehile statement."));
+		ThrowError(TEXT("Invalid body in a while statement."));
 		return nullptr;
 	}
 	While->Body = Body;
@@ -880,7 +880,7 @@ UAST_DoWhile* UParser::ParseDoWhile(int32& Index)
 	UAST_Node* Body = ParseNode(CurrentIndex);
 	if (!Body)
 	{
-		ThrowError(TEXT("Invalid body in do while"));
+		ThrowError(TEXT("Invalid body in do while statement"));
 		return nullptr;
 	}
 	DoWhile->Body = Body;
@@ -888,14 +888,14 @@ UAST_DoWhile* UParser::ParseDoWhile(int32& Index)
 	// While keyword
 	if (!IsTokenOfClass(CurrentIndex, UT_While::StaticClass()))
 	{
-		ThrowError(TEXT("While keyword missing from \"do while\" loop."));
+		ThrowError(TEXT("\"while\" keyword missing from do while loop."));
 		return nullptr;
 	}
 
 	// Open round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_OpenRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("\"(\" missin from \"do while\" loop."));
+		ThrowError(TEXT("\"(\" missing from do while loop."));
 		return nullptr;
 	}
 
@@ -903,7 +903,7 @@ UAST_DoWhile* UParser::ParseDoWhile(int32& Index)
 	UAST_Expression* Condition = ParseExpression(CurrentIndex);
 	if (!Condition)
 	{
-		ThrowError(TEXT("Invalid condition in \"do while\" loop."));
+		ThrowError(TEXT("Invalid condition in do while loop."));
 		return nullptr;
 	}
 	DoWhile->Condition = Condition;
@@ -911,7 +911,7 @@ UAST_DoWhile* UParser::ParseDoWhile(int32& Index)
 	// Closed round bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Missing \")\" from condition in \"do while\" loop."));
+		ThrowError(TEXT("Missing \")\" from condition in do while loop."));
 		return nullptr;
 	}
 
@@ -953,7 +953,7 @@ UAST_Scope* UParser::ParseScope(int32& Index)
 	// Closed curly bracket
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedCurlyBracket::StaticClass()))
 	{
-		ThrowError(TEXT("Missing \"{\" from scope."));
+		ThrowError(TEXT("Missing \"}\" from scope."));
 		return nullptr;
 	}
 
@@ -1178,7 +1178,7 @@ UAST_Literal* UParser::ParseLiteral(int32& Index)
 		return Nullptr;
 	}
 
-	ThrowError(TEXT("Found a literal that is neither a bool, int, float or string. There is either a bug, or fabric of reality is compromised. Either way, God help us."));
+	ThrowError(TEXT("Found a literal that is neither a bool, int, float, string or nullptr. There is either a bug, or fabric of reality is compromised. Either way, God help us."));
 	return nullptr;
 }
 
@@ -1250,7 +1250,7 @@ TArray<UAST_Expression*> UParser::GetRPN(int32& Index)
 			}
 			if (!IsTokenOfClass(CurrentIndex, UT_ClosedRoundBracket::StaticClass()))
 			{
-				ThrowError("Missing \")\".");
+				ThrowError("Missing \")\" in expression.");
 				return TArray<UAST_Expression*>();
 			}
 			OutputQueue.Add(Expression);
@@ -1399,20 +1399,20 @@ bool UParser::GetType(int32& Index, FString& type, bool& IsArray)
 	{
 		if (!IsTokenOfClass(currentIndex, UT_Less::StaticClass()))
 		{
-			ThrowError("Expected a < after array keyword.");
+			ThrowError("Expected a \"<\" after array keyword.");
 			return false;
 		}
 
 		UT_Identifier* id = Cast<UT_Identifier>(GetToken(currentIndex));
 		if (!id)
 		{
-			ThrowError("Expected a type after array<.");
+			ThrowError("Expected a type after \"array<\".");
 			return false;
 		}
 
 		if (!IsTokenOfClass(currentIndex, UT_Greater::StaticClass()))
 		{
-			ThrowError("Expected a > after \"array<" + id->ID + "\".");
+			ThrowError("Expected a \">\" after \"array<" + id->ID + "\".");
 			return false;
 		}
 		Index = currentIndex;
@@ -1445,13 +1445,13 @@ UAST_MemberAccess* UParser::ParseArrayGet(int32& Index)
 	UAST_Expression* indexExpression = ParseExpression(CurrentIndex);
 	if (!indexExpression)
 	{
-		ThrowError("Expected an expression after [.");
+		ThrowError("Expected an expression after \"[\".");
 		return nullptr;
 	}
 
 	if (!IsTokenOfClass(CurrentIndex, UT_ClosedSquareBracket::StaticClass()))
 	{
-		ThrowError("Expected ] after [ <expression>.");
+		ThrowError("Expected \"]\" after \"[expression\".");
 		return nullptr;
 	}
 

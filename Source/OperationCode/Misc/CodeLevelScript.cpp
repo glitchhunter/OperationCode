@@ -108,12 +108,21 @@ void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* =
 
 	PuzzleIndex = NewIndex;
 	HintIndex = 0;
+	NewPuzzleStarted(PuzzleIndex);
 }
 
 bool ACodeLevelScript::GetNextHintText(FString& HintText)
 {
-	if (!HintData.IsValidIndex(GetPuzzleIndex())) return false;
-	if (!HintData[GetPuzzleIndex()].HintText.IsValidIndex(GetHintIndex())) return false;
+	if (!HintData.IsValidIndex(GetPuzzleIndex()))
+	{
+		HintText = "Invalid puzzle index: " + FString::FromInt(GetPuzzleIndex());
+		return false;
+	}
+	if (!HintData[GetPuzzleIndex()].HintText.IsValidIndex(GetHintIndex()))
+	{
+		HintText = HintData[GetPuzzleIndex()].NoMoreHintsText;
+		return false;
+	}
 	HintText = HintData[GetPuzzleIndex()].HintText[GetHintIndex()];
 	HintIndex++;
 	UserRequestedHintsCount++;
@@ -126,6 +135,7 @@ void ACodeLevelScript::OnSave_Implementation(UPersistentLevelData* PLD)
 	PLD->HintIndex = HintIndex;
 	PLD->LevelStartTime = StartTime;
 	PLD->UserRequestedHintsCount = UserRequestedHintsCount;
+	PLD->CheckpointIndex = CheckpointIndex;
 }
 
 void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
@@ -135,5 +145,6 @@ void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
 	HintIndex = PLD->HintIndex;
 	StartTime = PLD->LevelStartTime;
 	UserRequestedHintsCount = PLD->UserRequestedHintsCount;
+	CheckpointIndex = PLD->CheckpointIndex;
 }
 

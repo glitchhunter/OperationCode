@@ -44,6 +44,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool GetNextHintText(FString& HintText);
 
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void NewPuzzleStarted(int32 index);
+
 	UFUNCTION(BlueprintNativeEvent)
 	void OnSave(UPersistentLevelData* PLD);
 
@@ -68,6 +71,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	ULevelFlowAsset* LevelFlow;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 CheckpointIndex;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<UPersistentLevelData> PldClass = UPersistentLevelData::StaticClass();;
 
@@ -84,7 +90,7 @@ public:
 
 protected:
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 HintIndex;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)

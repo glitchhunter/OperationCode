@@ -31,6 +31,9 @@ public:
 	int32 HintIndex;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 CheckpointIndex;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TSet<UTeachableDataAsset*> ExtraTeachables;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

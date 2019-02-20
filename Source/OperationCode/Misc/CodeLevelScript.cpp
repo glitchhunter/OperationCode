@@ -129,6 +129,7 @@ bool ACodeLevelScript::GetNextHintText(FString& HintText)
 void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
 {
 	IsFirstLoad = false;
+	PLD->ReloadCount++;
 }
 
 bool ACodeLevelScript::IsPuzzleCompleted(int32 index)

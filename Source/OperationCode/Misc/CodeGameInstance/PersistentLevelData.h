@@ -35,6 +35,12 @@ public:
 	int32 CheckpointIndex;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 FailedCompilesCount;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 ReloadCount;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TSet<UTeachableDataAsset*> ExtraTeachables;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

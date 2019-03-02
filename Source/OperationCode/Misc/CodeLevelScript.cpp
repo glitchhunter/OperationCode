@@ -105,6 +105,11 @@ void ACodeLevelScript::FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance)
 
 void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* = true */)
 {
+	if (!CodeGameInstance || !CodeGameInstance->GetPLD())
+	{
+		UE_LOG(LogTemp, Error, TEXT("Trying to set puzzle index to %i, but level didn't initialize yet."), NewIndex);
+		return;
+	}
 	CodeGameInstance->GetPLD()->SetPuzzleIndex(NewIndex, HigherOnly);
 }
 

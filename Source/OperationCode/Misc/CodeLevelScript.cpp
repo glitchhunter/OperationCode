@@ -116,7 +116,7 @@ void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* =
 
 bool ACodeLevelScript::GetNextHintText_Implementation(FString& HintText)
 {
-	if (!HintData.IsValidIndex(GetPLD()->GetPuzzleIndex()) || GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles)
+	if (!HintData.IsValidIndex(GetPLD()->GetPuzzleIndex()) || IsLevelSolved())
 	{
 		HintText = LevelCompletedHint;
 		return false;
@@ -152,7 +152,7 @@ bool ACodeLevelScript::CompleteThisPuzzle()
 bool ACodeLevelScript::CompletePuzzle(int32 index)
 {
 	if (!CodeGameInstance || !CodeGameInstance->GetPLD()) return false;
-	if (CodeGameInstance->GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles) return false;
+	if (IsLevelSolved()) return false;
 	
 	SetPuzzleIndex(index + 1);
 	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()));

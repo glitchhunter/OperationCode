@@ -63,7 +63,7 @@ public:
 	bool CompleteThisPuzzle();
 
 	UFUNCTION(BlueprintPure)
-	bool IsLevelSolved() { return GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles; }
+	bool IsLevelSolved() { return GetPLD()->GetPuzzleIndex() >= HintData.Num(); }
 
 
 
@@ -88,9 +88,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString LevelCompletedHint;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	int32 NumberOfPuzzles;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool AutoSaveOnNewLevelStart;

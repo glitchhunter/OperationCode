@@ -35,7 +35,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetPuzzleIndex(const int32 NewIndex, bool HigherOnly = true);
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	bool GetNextHintText(FString& HintText);
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
@@ -55,6 +55,15 @@ public:
 
 	UFUNCTION()
 	void FirstLoadSetup(UCodeGameInstanceBase* CodeGameInstance);
+
+	UFUNCTION(BlueprintCallable)
+	bool CompletePuzzle(int32 index);
+
+	UFUNCTION(BlueprintCallable)
+	bool CompleteThisPuzzle();
+
+	UFUNCTION(BlueprintPure)
+	bool IsLevelSolved() { return GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles; }
 
 
 
@@ -76,6 +85,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FPuzzleHintData> HintData;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString LevelCompletedHint;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	int32 NumberOfPuzzles;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool AutoSaveOnNewLevelStart;

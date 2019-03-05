@@ -14,6 +14,7 @@ ACodeLevelScript::ACodeLevelScript(const FObjectInitializer& ObjectInitializer) 
 {
 	PldClass = UPersistentLevelData::StaticClass();
 	AutoSaveOnNewLevelStart = true;
+	LevelCompletedHint = "You're done. Just leave.";
 }
 
 
@@ -113,11 +114,11 @@ void ACodeLevelScript::SetPuzzleIndex(const int32 NewIndex, bool HigherOnly /* =
 	CodeGameInstance->GetPLD()->SetPuzzleIndex(NewIndex, HigherOnly);
 }
 
-bool ACodeLevelScript::GetNextHintText(FString& HintText)
+bool ACodeLevelScript::GetNextHintText_Implementation(FString& HintText)
 {
-	if (!HintData.IsValidIndex(GetPLD()->GetPuzzleIndex()))
+	if (!HintData.IsValidIndex(GetPLD()->GetPuzzleIndex()) || GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles)
 	{
-		HintText = "Invalid puzzle index: " + FString::FromInt(GetPLD()->GetPuzzleIndex());
+		HintText = LevelCompletedHint;
 		return false;
 	}
 	if (!HintData[GetPLD()->GetPuzzleIndex()].HintText.IsValidIndex(GetPLD()->HintIndex))
@@ -140,5 +141,21 @@ void ACodeLevelScript::OnLoad_Implementation(UPersistentLevelData* PLD)
 bool ACodeLevelScript::IsPuzzleCompleted(int32 index)
 {
 	return GetPLD()->GetPuzzleIndex() > index;
+}
+
+bool ACodeLevelScript::CompleteThisPuzzle()
+{
+	if (!CodeGameInstance || !CodeGameInstance->GetPLD()) return false;
+	return CompletePuzzle(CodeGameInstance->GetPLD()->GetPuzzleIndex());
+}
+
+bool ACodeLevelScript::CompletePuzzle(int32 index)
+{
+	if (!CodeGameInstance || !CodeGameInstance->GetPLD()) return false;
+	if (CodeGameInstance->GetPLD()->GetPuzzleIndex() >= NumberOfPuzzles) return false;
+	
+	SetPuzzleIndex(index + 1);
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()));
+	return true;
 }
 

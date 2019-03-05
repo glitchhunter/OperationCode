@@ -12,7 +12,7 @@ class UPopUpTextType;
 /**
  * 
  */
-UCLASS(BlueprintType)
+UCLASS(Blueprintable)
 class OPERATIONCODE_API UNotificationType : public UDataAsset
 {
 	GENERATED_BODY()

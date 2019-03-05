@@ -12,7 +12,7 @@ class USoundBase;
 /**
  * 
  */
-UCLASS(BlueprintType)
+UCLASS(Blueprintable)
 class OPERATIONCODE_API UPopUpTextType : public UDataAsset
 {
 	GENERATED_BODY()

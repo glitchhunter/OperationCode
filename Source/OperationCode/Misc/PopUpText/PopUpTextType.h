@@ -12,6 +12,24 @@ class USoundBase;
 /**
  * 
  */
+
+USTRUCT(Blueprintable)
+struct OPERATIONCODE_API FPopUpTextTypeData
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<UPopUpTextWidget> WidgetClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float AutoDestroyTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	USoundBase* Sound;
+};
+
 UCLASS(Blueprintable)
 class OPERATIONCODE_API UPopUpTextType : public UDataAsset
 {
@@ -19,14 +37,7 @@ class OPERATIONCODE_API UPopUpTextType : public UDataAsset
 	
 public:
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	TSubclassOf<UPopUpTextWidget> WidgetClass;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	float AutoDestroyTime;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	USoundBase* Sound;
-	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FPopUpTextTypeData Data;
 	
 };

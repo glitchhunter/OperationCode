@@ -2,9 +2,9 @@
 
 #pragma once
 
+#include "NotificationType.h"
 #include "NotificationData.generated.h"
 
-class UNotificationType;
 class UNotificationPayload;
 
 /**
@@ -21,7 +21,7 @@ public:
 	FString NotificationText;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UNotificationType* Type;
+	FNotificationTypeData Type;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Instanced)
 	UNotificationPayload* Payload;

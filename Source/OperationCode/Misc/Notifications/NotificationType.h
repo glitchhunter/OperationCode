@@ -4,14 +4,33 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "Misc/PopUpText/PopUpTextData.h"
 #include "NotificationType.generated.h"
 
 class UNotificationWidget;
-class UPopUpTextType;
 
 /**
  * 
  */
+
+USTRUCT(Blueprintable)
+struct OPERATIONCODE_API FNotificationTypeData
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<UNotificationWidget> NotificationWidgetClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FPopUpTextTypeData PopUpTextType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsPersistent = true;
+
+};
+
 UCLASS(Blueprintable)
 class OPERATIONCODE_API UNotificationType : public UDataAsset
 {
@@ -19,15 +38,7 @@ class OPERATIONCODE_API UNotificationType : public UDataAsset
 	
 public:
 
-	UNotificationType();
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	TSubclassOf<UNotificationWidget> NotificationWidgetClass;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	UPopUpTextType* PopUpTextType;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Meta = (ExposeOnSpawn = "true"))
-	bool IsPersistent;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FNotificationTypeData Data;
 	
 };

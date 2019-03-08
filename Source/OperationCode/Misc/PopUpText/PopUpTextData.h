@@ -2,10 +2,10 @@
 
 #pragma once
 
+#include "PopUpTextType.h"
 #include "PopUpTextData.generated.h"
 
 
-class UPopUpTextType;
 /**
  * 
  */
@@ -20,6 +20,6 @@ public:
 	FString PopUpText;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UPopUpTextType* Type;
+	FPopUpTextTypeData TypeData;
 	
 };

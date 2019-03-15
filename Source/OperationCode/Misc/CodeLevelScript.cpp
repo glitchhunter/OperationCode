@@ -155,6 +155,7 @@ bool ACodeLevelScript::CompletePuzzle(int32 index)
 	if (IsLevelSolved()) return false;
 	
 	SetPuzzleIndex(index + 1);
+	GetPLD()->PuzzlesSkipped++;
 	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()));
 	return true;
 }

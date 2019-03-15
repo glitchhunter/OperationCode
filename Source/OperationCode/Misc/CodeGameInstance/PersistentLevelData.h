@@ -52,6 +52,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	int32 UserRequestedHintsCount;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int32 PuzzlesSkipped;
+
 	UPROPERTY(BlueprintAssignable)
 	FNewPuzzle OnNewPuzzleIndex;
 

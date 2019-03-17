@@ -10,7 +10,7 @@
  * 
  */
 UCLASS(Abstract)
-class OPERATIONCODE_API UAST_CompoundAssignment : public UAST_Operator
+class OPERATIONCODE_API UAST_CompoundAssignment : public UAST_TwoArguments
 {
 	GENERATED_BODY()
 	

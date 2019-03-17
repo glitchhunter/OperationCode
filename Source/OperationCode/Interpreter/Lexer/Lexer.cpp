@@ -107,11 +107,13 @@ ULexer::ULexer()
 	LexData.Add(FLexData("==", UT_EqualTo::StaticClass(), true));
 	LexData.Add(FLexData("!=", UT_NotEqualTo::StaticClass(), true));
 
+	/* We ship tomorrow! No time to fix this
 	LexData.Add(FLexData("/=", UT_DivideEqual::StaticClass(), true));
 	LexData.Add(FLexData("-=", UT_MinusEqual::StaticClass(), true));
 	LexData.Add(FLexData("%=", UT_ModuloEqual::StaticClass(), true));
 	LexData.Add(FLexData("*=", UT_MultiplyEqual::StaticClass(), true));
 	LexData.Add(FLexData("+=", UT_PlusEqual::StaticClass(), true));
+	*/
 	LexData.Add(FLexData("=", UT_Equal::StaticClass(), true));
 
 	LexData.Add(FLexData("/", UT_Divide::StaticClass(), true));

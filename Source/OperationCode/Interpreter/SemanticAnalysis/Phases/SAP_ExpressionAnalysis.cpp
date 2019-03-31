@@ -796,7 +796,9 @@ void USAP_ExpressionAnalysis::Analyse(UAST_TwoArguments* TwoArguments)
 	}
 
 	// Overload not found
-	ThrowError("No overload found for " + name + " with arguments of type " + lhsReturn->ReturnType + " and " + rhsReturn->ReturnType + ".");
+	FString lhsType = lhsReturn->ReturnType;
+	FString rhsType = rhsReturn->ReturnType;
+	ThrowError("No overload found for " + name + " with arguments of type " + lhsType + " and " + rhsType + ".");
 }
 
 

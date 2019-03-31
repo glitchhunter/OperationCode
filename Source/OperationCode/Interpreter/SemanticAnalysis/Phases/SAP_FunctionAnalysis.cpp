@@ -172,13 +172,21 @@ void USAP_FunctionAnalysis::CheckOverrideValidity(UAST_FunctionDefinition* Funct
 				UAST_ClassDefinition** childReturnType = GetSymbolTable()->ClassNames.Find(FunctionDefinition->FunctionData.ReturnType);
 				UAST_ClassDefinition** parentReturnType = GetSymbolTable()->ClassNames.Find(parentFunction->FunctionData.ReturnType);
 
-				// Only one of the functions are void
-				if (!childReturnType || !parentReturnType) continue;
+				// If both functions are void, the comparison above would return.
+				// If neither of them are void, the check underneath will ahndle it
+				// So if either of them is void, this function cannot be a valid override.
+				if (!childReturnType || !parentReturnType)
+				{
+					ThrowError("Function \"" + FunctionDefinition->FunctionData.FunctionName + "\" in class \"" + ownerClass->Name
+						+ "\" overrides a function in parent \"" + currentClass->Name + "\" but has a wrong return type.");
+					return;
+				}
 
 				if (!GetSymbolTable()->IsChildOf(*childReturnType, *parentReturnType))
 				{
 					ThrowError("Function \"" + FunctionDefinition->FunctionData.FunctionName + "\" in class \"" + ownerClass->Name
 						+ "\" overrides a function in parent \"" + currentClass->Name + "\" but has a wrong return type.");
+					return;
 				}
 
 				// Since we found another function with same signature, we can stop the loop.

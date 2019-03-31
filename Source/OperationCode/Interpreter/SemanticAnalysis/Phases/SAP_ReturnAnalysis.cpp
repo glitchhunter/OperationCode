@@ -16,7 +16,7 @@ void USAP_ReturnAnalysis::StartAnalysis(UAST_Node* Root)
 		CurrentFunction = pair.Value;
 		PathHasReturn = false;
 
-		if (!CurrentFunction->Scope) return;
+		if (!CurrentFunction->Scope) continue;
 		CurrentFunction->Scope->Analyse(this);
 
 		if (!PathHasReturn && !IsInVoidFunction())

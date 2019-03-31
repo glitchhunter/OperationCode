@@ -18,8 +18,16 @@ void USAP_ReturnAnalysis::StartAnalysis(UAST_Node* Root)
 
 		if (!CurrentFunction->Scope) continue;
 		CurrentFunction->Scope->Analyse(this);
-
-		if (!PathHasReturn && !IsInVoidFunction())
+		
+		// Constructors should not have a return keyword.
+		bool IsConstructor = false;
+		FConstructors* constructors = GetSymbolTable()->Constructors.Find(pair.Key.ClassDefinition);
+		if (constructors)
+		{
+			IsConstructor = constructors->constructors.Contains(CurrentFunction);
+		}
+		
+		if (!IsConstructor && !PathHasReturn && !IsInVoidFunction())
 		{
 			ThrowError("Not all execution paths return a value in \"" + CurrentFunction->FunctionData.FunctionName + "\".");
 		}

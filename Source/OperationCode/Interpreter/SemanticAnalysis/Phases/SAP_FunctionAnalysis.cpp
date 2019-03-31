@@ -173,7 +173,7 @@ void USAP_FunctionAnalysis::CheckOverrideValidity(UAST_FunctionDefinition* Funct
 				UAST_ClassDefinition** parentReturnType = GetSymbolTable()->ClassNames.Find(parentFunction->FunctionData.ReturnType);
 
 				// If both functions are void, the comparison above would return.
-				// If neither of them are void, the check underneath will ahndle it
+				// If neither of them are void, the check underneath will handle it
 				// So if either of them is void, this function cannot be a valid override.
 				if (!childReturnType || !parentReturnType)
 				{
